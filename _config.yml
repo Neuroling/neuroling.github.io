@@ -19,10 +19,10 @@ locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Neurolinguistics"
-description              : "Welcom to the website of UZH-Neurolinguistics"
-url                      : "https://neuroling.github.io/"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "Neuroling" # the subpath of your site, e.g. "/blog"
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Neurolinguistics"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is UZH-Neurolinguistics."
-  location         : "Zurich"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
     - label: "Email"
