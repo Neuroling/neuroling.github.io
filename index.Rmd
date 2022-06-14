@@ -1,5 +1,5 @@
 ---
-title: "MyLabJournal"
+title: "Neuroling"
 output: html_document
 ---
 
