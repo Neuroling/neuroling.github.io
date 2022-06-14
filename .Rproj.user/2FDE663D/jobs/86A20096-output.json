@@ -1,0 +1,8 @@
+[1,"Installing 'rglwidget' ...\r\n"]
+[1,"\r\n"]
+[2,"trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.2/rglwidget_0.2.1.zip'\r\n"]
+[1,"package 'rglwidget' successfully unpacked and MD5 sums checked\r\n"]
+[1,"\r\n"]
+[1,"The downloaded binary packages are in\r\n"]
+[1,"\tC:\\Users\\gfraga\\AppData\\Local\\Temp\\RtmpWQbVJJ\\downloaded_packages\r\n"]
+[2,"Content type 'application/zip' length 13394 bytes (13 KB)\r\n==================================================\r\ndownloaded 13 KB\r\n\r\n\r\n\r\n✔ Package 'rglwidget' successfully installed.\r\n"]
