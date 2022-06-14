@@ -14,7 +14,7 @@ output:
     knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# Project 1
+# Project 1 {.tabset .tabset-fade .tabset-pills}
 
 Last compiled: `r Sys.Date()`
 
@@ -29,7 +29,7 @@ You can add more headers by adding more hashtags. These won't be put into the ta
 Here's an even lower level header
  
 
-# Project 2
+# Project 2 {.tabset .tabset-fade .tabset-pills}
 
 Last compiled: `r Sys.Date()`
 
@@ -42,35 +42,5 @@ You can add more headers by adding more hashtags. These won't be put into the ta
 ### third level header
 
 Here's an even lower level header
- 
-
-# Project 3
-
-Last compiled: `r Sys.Date()`
-
-This will be a project description. 
-
-## Second level header
-
-You can add more headers by adding more hashtags. These won't be put into the table of contents
-
-### third level header
-
-Here's an even lower level header
- 
-
-# Project 4
-
-Last compiled: `r Sys.Date()`
-
-This will be a project description. 
-
-## Second level header
-
-You can add more headers by adding more hashtags. These won't be put into the table of contents
-
-### third level header
-
-Here's an even lower level header
- 
+  
 
