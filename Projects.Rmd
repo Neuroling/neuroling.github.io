@@ -136,6 +136,9 @@ blah blah
 
 ### Subsection 1.. 
 
+Pic1            |  Pic2
+:-------------------------:|:-------------------------:
+![](images/logo.png) |  ![](images/logo.png)
 
 # {-}
    
