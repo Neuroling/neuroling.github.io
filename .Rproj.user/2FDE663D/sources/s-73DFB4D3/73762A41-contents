@@ -134,15 +134,8 @@ Last compiled: `r Sys.Date()`
 
 blah blah
 
-### Subsection 1
+### Subsection 1.. 
 
-## Project 3
-Last compiled: `r Sys.Date()`
-
-blah blah
-wfwfwfwfwfwfw
-
-### Subsection 1
 
 # {-}
    
