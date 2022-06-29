@@ -8,29 +8,32 @@ output:
     collapsed: true
     number_sections: false
     toc_depth: 3
-    
 ---
+
+```{=html}
 <style>
   .nav-pills>li>a:hover, .nav-pills>li>a:focus, .nav-pills>li.active>a,     .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
      background-color: CadetBlue; 
      }
-</style>  <!-- https://www.angularfix.com/2021/10/how-to-change-tabset-colors-without.html -->
+</style>
+```
+<!-- https://www.angularfix.com/2021/10/how-to-change-tabset-colors-without.html -->
 
 ```{r setup, include=FALSE}
     knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
- 
-# {.tabset .tabset-fade .tabset-pills}
+
+#  {.tabset .tabset-fade .tabset-pills}
 
 ## Project 1
 
 Last compiled: `r Sys.Date()`
 
-This will be a project description. In here we can also include demos and interactive elements. 
+This will be a project description. In here we can also include demos and interactive elements.
 
 ### Interactive Plots
-We can include basic interactive plots easy to make with plotly. 
-We can also create a ggplot and plotlyfy it, making it interactive:
+
+We can include basic interactive plots easy to make with plotly. We can also create a ggplot and plotlyfy it, making it interactive:
 
 ```{r, out.width=300, out.height=300}
 p <- ggplot(fortify(forecast::gold), aes(x, y)) + geom_line()
@@ -62,7 +65,7 @@ scatterplot3js(x,y,z, color=rainbow(length(z)))
 
 ### Animations
 
-We can include simple animations , very easy to make with plotly 
+We can include simple animations , very easy to make with plotly
 
 ```{r, out.height=600, out.width=600}
 library(plotly)
@@ -116,7 +119,7 @@ fig <- fig %>% animation_button(
 
 fig
 ```
- 
+
 Other example of plotly
 
 ```{r, out.height=300, out.width=300}
@@ -129,16 +132,23 @@ fig
 
 ```
 
-## Project 2
+## In Utero Vocal Learning
+
 Last compiled: `r Sys.Date()`
 
-blah blah
+Human Infants are born crying with an accent that reflects the pitch accent of the language of the environment in which they gestate.
 
-### Subsection 1.. 
+This strand of research concerns itself with this from two perspectives:
 
-Pic1            |  Pic2
-:-------------------------:|:-------------------------:
-![](images/logo.png) |  ![](images/logo.png)
+1.  How does a fetus learn to implement an accent, despite having no opportunity to practice vocalisation *in utero*?
+2.  Is there a benefit to a newborn of crying with a "native" accent?
 
-# {-}
-   
+In order to address these questions we are undertaking an SNF-funded investigation to examine the acoustic features of infants' cries that make them more or less aversive or salient to potential caregivers and the *in utero* cerebral processes that underpin acquisition of early precursors of human speech.
+
+### Subsection 1..
+
+|         Pic1         |         Pic2         |
+|:--------------------:|:--------------------:|
+| ![](images/logo.png) | ![](images/logo.png) |
+
+#  {.unnumbered}

@@ -3,7 +3,7 @@
     "path": "C:/Users/gfraga/neuroling.github.io/Projects.Rmd",
     "project_path": "Projects.Rmd",
     "type": "r_markdown",
-    "hash": "2615017937",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1655226657610.0,
@@ -12,15 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "138,22",
-        "scrollLine": "111"
+        "cursorPosition": "46,20",
+        "scrollLine": "39",
+        "rmdVisualMode": "true",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "1893:1230.4000244140625",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1656434814,
+    "lastKnownWriteTime": 1656510481,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1656434814573,
+    "last_content_update": 1656510481783,
     "read_only": false,
     "read_only_alternatives": []
 }
