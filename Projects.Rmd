@@ -25,113 +25,6 @@ output:
 
 #  {.tabset .tabset-fade .tabset-pills}
 
-## Project 1
-
-Last compiled: `r Sys.Date()`
-
-This will be a project description. In here we can also include demos and interactive elements.
-
-### Interactive Plots
-
-We can include basic interactive plots easy to make with plotly. We can also create a ggplot and plotlyfy it, making it interactive:
-
-```{r, out.width=300, out.height=300}
-p <- ggplot(fortify(forecast::gold), aes(x, y)) + geom_line()
-p <- ggplotly(p)
-p <- p %>% layout(dragmode = "pan")
-p
-
-```
-
-We can include different types of interactive tables and plots (html widgets)
-
-```{r, out.height=200, out.width=200}
-library(dygraphs)
-dygraph(nhtemp, main = "") %>% 
-dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
-
-```
-
-There are packages available for specific interactive plots
-
-```{r, out.height=400, out.width=400}
-library(threejs)
-z <- seq(-10, 10, 0.01)
-x <- cos(z)
-y <- sin(z)
-scatterplot3js(x,y,z, color=rainbow(length(z)))
-
-```
-
-### Animations
-
-We can include simple animations , very easy to make with plotly
-
-```{r, out.height=600, out.width=600}
-library(plotly)
-
-accumulate_by <- function(dat, var) {
-  var <- lazyeval::f_eval(var, dat)
-  lvls <- plotly:::getLevels(var)
-  dats <- lapply(seq_along(lvls), function(x) {
-    cbind(dat[var %in% lvls[seq(1, x)], ], frame = lvls[[x]])
-  })
-  dplyr::bind_rows(dats)
-}
-
-df <- txhousing 
-fig <- df %>%
-  filter(year > 2005, city %in% c("Abilene", "Bay Area"))
-fig <- fig %>% accumulate_by(~date)
-
-
-fig <- fig %>%
-  plot_ly(
-    x = ~date, 
-    y = ~median,
-    split = ~city,
-    frame = ~frame, 
-    type = 'scatter',
-    mode = 'lines', 
-    line = list(simplyfy = F)
-  )
-fig <- fig %>% layout(
-  xaxis = list(
-    title = "Date",
-    zeroline = F
-  ),
-  yaxis = list(
-    title = "Median",
-    zeroline = F
-  )
-) 
-fig <- fig %>% animation_opts(
-  frame = 100, 
-  transition = 0, 
-  redraw = FALSE
-)
-fig <- fig %>% animation_slider(
-  hide = T
-)
-fig <- fig %>% animation_button(
-  x = 1, xanchor = "right", y = 0, yanchor = "bottom"
-)
-
-fig
-```
-
-Other example of plotly
-
-```{r, out.height=300, out.width=300}
-library(plotly)
-# volcano is a numeric matrix that ships with R
-fig <- plot_ly(z = ~volcano)
-fig <- fig %>% add_surface()
-
-fig
-
-```
-
 ## In Utero Vocal Learning
 
 Last compiled: `r Sys.Date()`
@@ -145,8 +38,19 @@ This strand of research concerns itself with this from two perspectives:
 
 In order to address these questions we are undertaking an SNF-funded investigation to examine the acoustic features of infants' cries that make them more or less aversive or salient to potential caregivers and the *in utero* cerebral processes that underpin acquisition of early precursors of human speech.
 
-### Subsection 1..
 
 ![](images/Scanner_setup_wbkgd.png)
+
+## Speech comprehension
+
+Reduced speech comprehension ability is a major consequence of hearing impairments. Specially in acoustically challenging situations, difficulties in speech perception and comprehension can have major consequences for quality of life. The goal of this project is to gain knowledge into the cognitive and brain mechanisms involved in speech-in-noise comprehension. Ultimately, we search for novel insights to guide future aid technologies.
+
+There are two related projects:
+
+1.  Speech-in-noise online (SINON) investigates perception and decision-making processes. The study involves auditory presentation of speech embedded in different types and levels of noise to a healthy population performing different tasks probing speech comprehension. The outputs of the project will directly inform the paradigm design of a subsequent neurofeedback proof-of-concept investigation.
+
+<!-- -->
+
+2.  Speech-in-noise electroencephalography (SINEEG). This project will investigate patterns of electrophysiological activity associated with better speech in noise comprehension. Real-time EEG analysis will be used to trigger stimuli presentation when participants show specific brain-states. Comparing performance in those brain-dependent trials vs independent trials will help defining targets for future neurofeedback-based studies.
 
 #  {.unnumbered}
