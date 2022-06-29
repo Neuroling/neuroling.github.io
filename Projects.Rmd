@@ -43,6 +43,8 @@ In order to address these questions we are undertaking an SNF-funded investigati
 
 ## Speech comprehension
 
+Last compiled: `r Sys.Date()`
+
 Reduced speech comprehension ability is a major consequence of hearing impairments. Specially in acoustically challenging situations, difficulties in speech perception and comprehension can have major consequences for quality of life. The goal of this project is to gain knowledge into the cognitive and brain mechanisms involved in speech-in-noise comprehension. Ultimately, we search for novel insights to guide future aid technologies.
 
 There are two related projects:
