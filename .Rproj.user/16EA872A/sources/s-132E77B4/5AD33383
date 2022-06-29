@@ -1,0 +1,31 @@
+{
+    "id": "5AD33383",
+    "path": "~/Website_Neuroling/neuroling.github.io/Projects.Rmd",
+    "project_path": "Projects.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1656483903021.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "true",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "3442:1962",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "cursorPosition": "145,306",
+        "scrollLine": "17"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1656503637,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1656503637394,
+    "read_only": false,
+    "read_only_alternatives": []
+}
