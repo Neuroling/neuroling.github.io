@@ -1,31 +1,16 @@
 ---
-title: "Neuroling"
-output: html_document
+title: "Neurolinguistics"
+output: 
+  distill::distill_article: default
+
 ---
+ 
+::: floatting
+```{r out.width='50%', out.extra='style="float:center; padding:10px"',echo=FALSE}
+knitr::include_graphics("images/logo.png")
+```
+ 
 
-<style type="text/css">
-.title {
-  display: none;
-}
-
-#getting-started img {
-  margin-right: 50px;
-}
-
-</style>
-
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
-
-# **Neuroling**
 This is the website of neurolinguistics. Currently under construction. 
-</div>
-
-<div class="col-sm-6">
-<!--
-### [Neurolinguistics lab](https://neuroling.github.io)
--->
-<a href = "https://neuroling.github.io/docs">
-![](images/logo.png)
-</a>
-</div>
+ 
+:::
