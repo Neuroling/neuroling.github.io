@@ -1,37 +1,53 @@
 ---
-title: "Team"
-output: html_document
+title: "People"
+output: 
+  distill::distill_article: default
 ---
-
-
-### Prof. Dr. Alexis Hervais-Adelman (Group leader)
  
 
+### Prof. Dr. Alexis Hervais-Adelman (Group leader)
 
-<div class="col-sm-2">
-![](images/Alexis.jpg)
-[Scholar profile](https://scholar.google.com/citations?user=CSXgCEoAAAAJ&hl=en&oi=ao)
-[ORCID](https://orcid.org/0000-0002-5232-626X)
-</div>
+::: {.floatting}
+
+```{r out.width='30%', out.extra='style="float:left; padding:10px"',echo=FALSE}
+knitr::include_graphics("images/Alexis.jpg")
+```
 
 Alexis Hervais-Adelman is head of the Neurolinguistics Division at the Psychology Institute of the University of Zurich. His research uses several approaches to elucidate the brain networks of language, and interventions that might serve to train and improve them. His team deploys multiple neuroimaging and behavioural methods methods to investigate the brain networks of extreme language - be it the perception of acoustically challenging speech, or the challenges posed by multilingualism.
 
-He began his academic career at the University of Cambridge, where he obtained his doctoral degree in cognitive neuroscience in 2008, for his thesis entitled "The perceptual learning of degraded speech". Subsequently he worked at the Centre for the Neural Basis of Hearing, Cambridge University Department of Physiology, investigating the representation of speech sounds in human auditory cortex. In 2009 he moved to the University of Geneva where he held positions in the Fundamental Neuroscience Department and the Department of Interpreting. There, he worked extensively on the neuroscience of simultaneous interpreting in order to reveal the brain networks that allow interpreters to carry out their highly challenging multilingual work and has examined the consequences of expertise in simultaneous interpretation for the brain. Subsequently, he became a member of research staff at the Neurobiology of Language group at the Max Planck Institute for Psycholinguistics, Nijmegen. There he became involved in several projects investigating diverse aspects of the human language faculty. 
+He began his academic career at the University of Cambridge, where he obtained his doctoral degree in cognitive neuroscience in 2008, for his thesis entitled "The perceptual learning of degraded speech". Subsequently he worked at the Centre for the Neural Basis of Hearing, Cambridge University Department of Physiology, investigating the representation of speech sounds in human auditory cortex. In 2009 he moved to the University of Geneva where he held positions in the Fundamental Neuroscience Department and the Department of Interpreting. There, he worked extensively on the neuroscience of simultaneous interpreting in order to reveal the brain networks that allow interpreters to carry out their highly challenging multilingual work and has examined the consequences of expertise in simultaneous interpretation for the brain. Subsequently, he became a member of research staff at the Neurobiology of Language group at the Max Planck Institute for Psycholinguistics, Nijmegen. There he became involved in several projects investigating diverse aspects of the human language faculty.
 
+[Scholar profile](https://scholar.google.com/citations?user=CSXgCEoAAAAJ&hl=en&oi=ao) 
 
+[ORCID](https://orcid.org/0000-0002-5232-626X)
+
+:::
 <br>
 
-### Dr Gorka Fraga-Gonzalez
-<div class="col-sm-2">
-![](images/Gorka.jpg)
-[Scholar profile](https://scholar.google.com/citations?user=pSAXHtYAAAAJ&hl=en&oi=ao) 
+### Dr Gorka Fraga-González
 
-</div>
- 
+::: {.floatting}
+
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Gorka1.jpg")
+```
+Gorka Fraga González is a postdoctoral researcher with an interest in understanding brain function for different aspects of learning and development. Gorka received his PhD in 2016 at the University of Amsterdam (Developmental Psychology). His doctoral thesis "Fixing fluency: neurocognitive assessment of a dysfluent reading intervention" used electroencephalography (EEG) and a longitudinal design to study brain responses to words in children with and without dyslexia. He continued as a postdoc in the University of Amsterdam examining electrophysiological responses and EEG networks associated with feedback-based learning of novel symbol-speech sound associations. In 2018 he moved to the Department of Child and Adolescent Psychiatry and Psychotherapy, at the University of Zurich. He worked on several developmental EEG studies examining letter and number processing through kindergarten and elementary school. From 2020 to 2022 he led the project "Grapholemo: Grapheme-phoneme learning modelling", where he used functional magnetic resonance imaging (fMRI) and a computational model (reinforcement learning drift diffusion) to delineate the brain areas involved in symbol-speech sound learning.
 
 
-Gorka Fraga González is a postdoctoral researcher with an interest in understanding brain function for different aspects of learning and development. Gorka received his PhD in 2016 at the University of Amsterdam (Developmental Psychology). His doctoral thesis “Fixing fluency: neurocognitive assessment of a dysfluent reading intervention” used electroencephalography (EEG) and a longitudinal design to study brain responses to words in children with and without dyslexia. He continued as a postdoc in the University of Amsterdam examining electrophysiological responses and EEG networks associated with feedback-based learning of novel symbol-speech sound associations. In 2018 he moved to the Department of Child and Adolescent Psychiatry and Psychotherapy, at the University of Zurich. He worked on several developmental EEG studies examining letter and number processing through kindergarten and elementary school.  From 2020 to 2022 he led the project “Grapholemo: Grapheme-phoneme learning modelling”, where he used functional magnetic resonance imaging (fMRI) and a computational model (reinforcement learning drift diffusion) to delineate the brain areas involved in symbol-speech sound learning.
+[Scholar profile](https://scholar.google.com/citations?user=pSAXHtYAAAAJ&hl=en&oi=ao)
 
+[ORCID](https://orcid.org/0000-0002-1857-8607)
+:::
 <br>
 
+### Lea Bächlin
 
+::: {.floatting}
+
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Lea.jpg")
+```
+
+Lea Bächlin is a master's student in psychology at the University of Zurich. She is interested in mechanisms of perception and sleep as well as in neuroscientific methods in general. She received her bachelor's degree from the University of Berne with a focus on neuroscience. During her undergraduate studies, she worked as a research assistant on a study using electroencephalography (EEG) to investigate auditory processing during sleep. As a research assistant in the Division of Neurolinguistics, she is analyzing functional magnetic resonance (fMRI) data collected at the Donders Institute for Brain, Cognition and Behaviour, Nijmegen, The Netherlands. This project combines transcranial direct-current stimulation (tDCS) and fMRI to examine the role of motor cortices in speech in noise perception.
+
+:::
