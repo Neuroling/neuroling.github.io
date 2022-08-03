@@ -3,11 +3,11 @@ title: "People"
 output: 
   distill::distill_article: default
 ---
- 
+
 ### Prof. Dr. Alexis Hervais-Adelman (Group leader)
 
 ::: floatting
- ```{r out.width='30%', out.extra='style="float:left; padding:10px"',echo=FALSE}
+```{r out.width='30%', out.extra='style="float:left; padding:10px"',echo=FALSE}
 knitr::include_graphics("images/Alexis.jpg")
 ```
 
@@ -46,4 +46,17 @@ knitr::include_graphics("images/Lea.jpg")
 ```
 
 Lea Bächlin is a master's student in psychology at the University of Zurich. She is interested in mechanisms of perception and sleep as well as in neuroscientific methods in general. She received her bachelor's degree from the University of Berne with a focus on neuroscience. During her undergraduate studies, she worked as a research assistant on a study using electroencephalography (EEG) to investigate auditory processing during sleep. As a research assistant in the Division of Neurolinguistics, she is analyzing functional magnetic resonance (fMRI) data collected at the Donders Institute for Brain, Cognition and Behaviour, Nijmegen, The Netherlands. This project combines transcranial direct-current stimulation (tDCS) and fMRI to examine the role of motor cortices in speech in noise perception.
+:::
+
+### Anouk Glättli
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Anouk.jpg")
+```
+
+Anouk Glättli is working as a research assistant on a follow-up experiment after completing her master's thesis in this lab. The project focuses on the role of the
+articulatory motor cortex and the use of non-invasive brain stimulation in
+speech perception under challenging listening conditions.
+
 :::
