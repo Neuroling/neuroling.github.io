@@ -55,8 +55,7 @@ Lea Bächlin is a master's student in psychology at the University of Zurich. Sh
 knitr::include_graphics("images/Anouk.jpg")
 ```
 
-Anouk Glättli is working as a research assistant on a follow-up experiment after completing her master's thesis in this lab. The project focuses on the role of the
-articulatory motor cortex and the use of non-invasive brain stimulation in
-speech perception under challenging listening conditions.
+Anouk Glättli is working as a research assistant in this lab. Her current research, a follow-up experiment on her master project, focuses on the role of the articulatory motor cortex and the use of non-invasive brain stimulation in speech perception under challenging listening conditions. 
+Anouk completed her Bachelor’s degree in Psychology at the University of Berne. After doing two clinical internships in neuropsychology, she’s currently completing her Master’s degree at the University of Zurich, focusing on development, neuroscience, and cognition. Working on various research projects during her studies sparked her interest in cognitive neuroscience, a field she is eager to pursue after graduation. 
 
 :::
