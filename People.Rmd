@@ -22,7 +22,7 @@ He began his academic career at the University of Cambridge, where he obtained h
 
 <br>
 
-### Dr Gorka Fraga-González
+### Dr. Gorka Fraga-González
 
 ::: floatting
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
@@ -34,6 +34,8 @@ Gorka Fraga González is a postdoctoral researcher with an interest in understan
 [Scholar profile](https://scholar.google.com/citations?user=pSAXHtYAAAAJ&hl=en&oi=ao)
 
 [ORCID](https://orcid.org/0000-0002-1857-8607)
+
+[Contact](gorka.fragagonzalez@uzh.ch)
 :::
 
 <br>
@@ -51,6 +53,24 @@ My research interests lie within auditory cognitive-neuroscience, focusing on af
 [Scholar profile](https://scholar.google.com/citations?user=Xem3MPQAAAAJ&hl=en&oi=ao)
 
 [ORCID](https://orcid.org/0000-0002-5530-0583)
+:::
+
+<br>
+
+### Dr. Basil Preisig
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Basil.jpg")
+```
+
+I obtained my PhD in Neuroscience at the University of Bern in 2016. Afterwards, I did a postdoctoral fellowship at the Donders Institute for Cognitive Neuroimaging and the Max Planck Institute for Psycholinguistics in Nijmegen before I joined the Neurolinguistcs lab at the University of Zurich in 2019. In autumn 2021, I was awarded the prestigious Ambizione career grant by the Swiss National Science Foundation to start my own research group at the Department of Comparative Language Science.
+
+<br>
+
+[Website](https://www.comparativelinguistics.uzh.ch/en/staff/preisig.html)
+
+[Contact](basil.preisig@uzh.ch)
 :::
 
 <br>
