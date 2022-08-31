@@ -38,6 +38,23 @@ Gorka Fraga González is a postdoctoral researcher with an interest in understan
 
 <br>
 
+
+### Huw Swanborough
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/huw.jpg")
+```
+
+My research interests lie within auditory cognitive-neuroscience, focusing on affective processing and auditory streaming, but also with an interest towards multi-modal processing. My work at University of Zurich is concerned with the perception of affective voices in noisy conditions, and the underlying neural correlates responsible for accurate perception and categorization.
+
+[Scholar profile](https://scholar.google.com/citations?user=Xem3MPQAAAAJ&hl=en&oi=ao)
+
+[ORCID](https://orcid.org/0000-0002-5530-0583)
+:::
+
+<br>
+
 ### Lea Bächlin
 
 ::: floatting
