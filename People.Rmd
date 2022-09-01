@@ -19,7 +19,7 @@ He began his academic career at the University of Cambridge, where he obtained h
 
 [ORCID](https://orcid.org/0000-0002-5232-626X)
 
-[Contact](alexis(dot[hervais-adelman[@}psychologie[dot)uzh{dot)ch)
+[Contact](mailto::alexis[dot]hervais-adelman[at]psychologie[dot]uzh[dot]ch)
 :::
 
 <br>
@@ -37,7 +37,7 @@ Gorka Fraga González is a postdoctoral researcher with an interest in understan
 
 [ORCID](https://orcid.org/0000-0002-1857-8607)
 
-[Contact](gorka(dot[fragagonzalez[@}uzh{dot)ch)
+[Contact](mailto::gorka[dot]fragagonzalez[at]uzh[dot]ch)
 :::
 
 <br>
@@ -71,7 +71,7 @@ I obtained my PhD in Neuroscience at the University of Bern in 2016. Afterwards,
 
 [Website](https://www.comparativelinguistics.uzh.ch/en/staff/preisig.html)
 
-[Contact](basil(dot[preisig[@}uzh{dot)ch)
+[Contact](mailto::basil[dot]preisig[at]uzh[dot]ch)
 :::
 
 <br>
