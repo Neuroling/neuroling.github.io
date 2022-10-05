@@ -3,12 +3,21 @@ title: "Resources"
 output: html_document
 ---
 
-Useful software tools
+Data analysis and visualizations 
 
 -   [R package for Exploratory Data Analysis](https://github.com/rolkra/explore) Package with utilities to allow quick data exploration and diagnosis without having to write too much code. More info and how to use it to design a simple shiny App in this [blog post](https://www.r-bloggers.com/2022/09/explore-simplified-exploratory-data-analysis-eda-in-r/) 
 
--   [Matlab: Amsterdam Decoding and Modeling toolbox](https://github.com/fahrenfort/ADAM)\
-    ADAM is an open source Matlab Toolbox. It allows you to perform multivariate analyses on your EEG and/or MEG data using backward decoding (BDM) and forward encoding models (FEM).
+- [Plotly R](https://plotly.com/r/) and [Plotly Python](https://plotly.com/python/) 
+ Free graphing library for easy-to-make interactive, publication-quality graphs. Contains many examples of varying complexity.  
 
--   [Matlab: Standardized preprocessing and quality assessments of big EEG data](https://github.com/methlabUZH/automagic)\
+- [Scikit-learn machine learning in Python](https://scikit-learn.org/stable/index.html)
+  Accessible examples and explanations on a variaty of methods for predictive analysis
+  
+ 
+ Signal processing/EEG/MEG 
+
+- [Matlab: Standardized preprocessing and quality assessments of big EEG data](https://github.com/methlabUZH/automagic)\
     Automagic is a MATLAB based toolbox for preprocessing of EEG-datasets. It has been developed with the intention to offer a user-friendly pre-processing software for big (and small) EEG datasets
+    
+- [Matlab: Amsterdam Decoding and Modeling toolbox](https://github.com/fahrenfort/ADAM)\
+  ADAM is an open source Matlab Toolbox. It allows you to perform multivariate analyses on your EEG and/or MEG data using backward decoding (BDM) and forward encoding models (FEM).

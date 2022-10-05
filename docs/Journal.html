@@ -13,7 +13,7 @@
 
 <title>Journal</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -359,7 +363,7 @@ website. If you put a # in front of your text, it will create a top
 level-header.</p>
 <div id="my-first-post" class="section level1">
 <h1>My first post</h1>
-<p>2018 | 7 | 23 Last compiled: 2022-09-27</p>
+<p>2018 | 7 | 23 Last compiled: 2022-10-05</p>
 <p>Notice that whatever you define as a top level header, automatically
 gets put into the table of contents bar on the left.</p>
 <div id="second-level-header" class="section level2">
@@ -374,7 +378,7 @@ into the table of contents</p>
 </div>
 <div id="my-second-post-note-the-order" class="section level1">
 <h1>My second post (note the order)</h1>
-<p>2018 | 7 | 23 Last compiled: 2022-09-27</p>
+<p>2018 | 7 | 23 Last compiled: 2022-10-05</p>
 <p>I’m writing this tutorial going from the top down. And, this is how
 it will be printed. So, notice the second post is second in the list. If
 you want your most recent post to be at the top, then make a new post

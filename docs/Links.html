@@ -13,7 +13,7 @@
 
 <title>Resources</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -274,7 +278,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Useful software tools</p>
+<p>Data analysis and visualizations</p>
 <ul>
 <li><p><a href="https://github.com/rolkra/explore">R package for
 Exploratory Data Analysis</a> Package with utilities to allow quick data
@@ -282,17 +286,27 @@ exploration and diagnosis without having to write too much code. More
 info and how to use it to design a simple shiny App in this <a
 href="https://www.r-bloggers.com/2022/09/explore-simplified-exploratory-data-analysis-eda-in-r/">blog
 post</a></p></li>
-<li><p><a href="https://github.com/fahrenfort/ADAM">Matlab: Amsterdam
-Decoding and Modeling toolbox</a><br />
-ADAM is an open source Matlab Toolbox. It allows you to perform
-multivariate analyses on your EEG and/or MEG data using backward
-decoding (BDM) and forward encoding models (FEM).</p></li>
+<li><p><a href="https://plotly.com/r/">Plotly R</a> and <a
+href="https://plotly.com/python/">Plotly Python</a> Free graphing
+library for easy-to-make interactive, publication-quality graphs.
+Contains many examples of varying complexity.</p></li>
+<li><p><a href="https://scikit-learn.org/stable/index.html">Scikit-learn
+machine learning in Python</a> Accessible examples and explanations on a
+variaty of methods for predictive analysis</p></li>
+</ul>
+<p>Signal processing/EEG/MEG</p>
+<ul>
 <li><p><a href="https://github.com/methlabUZH/automagic">Matlab:
 Standardized preprocessing and quality assessments of big EEG
 data</a><br />
 Automagic is a MATLAB based toolbox for preprocessing of EEG-datasets.
 It has been developed with the intention to offer a user-friendly
 pre-processing software for big (and small) EEG datasets</p></li>
+<li><p><a href="https://github.com/fahrenfort/ADAM">Matlab: Amsterdam
+Decoding and Modeling toolbox</a><br />
+ADAM is an open source Matlab Toolbox. It allows you to perform
+multivariate analyses on your EEG and/or MEG data using backward
+decoding (BDM) and forward encoding models (FEM).</p></li>
 </ul>
 
 
