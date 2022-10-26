@@ -13,7 +13,7 @@
 
 <title>Links</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -178,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -278,7 +271,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Institutions and mailing lists</p>
+<p>Institutions, Seminar Series and Mailing Lists</p>
 <ul>
 <li><p>ZNZ:<a
 href="https://www.neuroscience.uzh.ch/en/news.html">Neuroscience Center
@@ -289,6 +282,9 @@ href="https://www.linguistik.uzh.ch/en/whatsup/newsletter.html"
 class="uri">https://www.linguistik.uzh.ch/en/whatsup/newsletter.html</a>]</p></li>
 <li><p>NCCR: <a href="https://evolvinglanguage.ch/news/">National Centre
 for Competence in Research: Evolving language</a></p></li>
+<li><p>DCLS: <a
+href="https://www.comparativelinguistics.uzh.ch/en/colloquium.html">Department
+of Comparative Langauge Science Colloquium</a></p></li>
 <li><p>PaSS: <a
 href="https://lists.ifi.uzh.ch/listinfo/phonetics_news">Phonetics and
 Speech Sciences newsletter</a></p></li>
@@ -307,7 +303,7 @@ library for easy-to-make interactive, publication-quality graphs.
 Contains many examples of varying complexity.</p></li>
 <li><p><a href="https://scikit-learn.org/stable/index.html">Scikit-learn
 machine learning in Python</a> Accessible examples and explanations on a
-variaty of methods for predictive analysis</p></li>
+variety of methods for predictive analysis</p></li>
 </ul>
 <p>Signal processing/EEG/MEG</p>
 <ul>
