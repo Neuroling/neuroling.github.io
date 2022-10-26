@@ -11,7 +11,9 @@ Institutions, Seminar Series and Mailing Lists
 
 - NCCR: [National Centre for Competence in Research: Evolving language](https://evolvinglanguage.ch/news/)
 
-- DCLS: [Department of Comparative Langauge Science Colloquium](https://www.comparativelinguistics.uzh.ch/en/colloquium.html)
+- DCLS: [Department of Comparative Language Science Colloquium](https://www.comparativelinguistics.uzh.ch/en/colloquium.html)
+
+- ISLE [Centre for the Interdisciplinary Study of Language Evolution](https://www.isle.uzh.ch/en/colloquium.html)
 
 - PaSS: [Phonetics and Speech Sciences newsletter](https://lists.ifi.uzh.ch/listinfo/phonetics_news)
 
