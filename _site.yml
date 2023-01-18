@@ -8,6 +8,10 @@ navbar:
       href: Projects.html
     - text: "People"
       href: People.html
+    - text: "Vacancies"
+      href: Vacancies.html
+    - text: "Publications"
+      href: Publications.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"

@@ -13,7 +13,7 @@ output:
 ```{=html}
 <style>
   .nav-pills>li>a:hover, .nav-pills>li>a:focus, .nav-pills>li.active>a,     .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
-     background-color: CadetBlue; 
+     background-color: BalloonBlue; 
      }
 </style>
 ```
@@ -37,7 +37,7 @@ Human speech perception is robust in the face of adverse listening conditions, s
 
 Houweling, T., Becker, R., & Hervais-Adelman, A. (2020). The noise-resilient brain: Resting-state oscillatory activity predicts words-in-noise recognition. Brain Lang, 202, 104727. [doi:10.1016/j.bandl.2019.104727](https://www.sciencedirect.com/science/article/pii/S0093934X19303438)
 
-Becker, R., & Hervais-Adelman, A. (2020). Resolving the Connectome, Spectrally-Specific Functional Connectivity Networks and Their Distinct Contributions to Behavior. eNeuro, 7(5), ENEURO.0101-0120.2020. [doi:10.1523/eneuro.0101-20.2020>](https://www.eneuro.org/content/7/5/ENEURO.0101-20.2020)
+Becker, R., & Hervais-Adelman, A. (2020). Resolving the Connectome, Spectrally-Specific Functional Connectivity Networks and Their Distinct Contributions to Behavior. eNeuro, 7(5), ENEURO.0101-0120.2020. [doi:10.1523/eneuro.0101-20.2020\>](https://www.eneuro.org/content/7/5/ENEURO.0101-20.2020)
 
 ## In Utero Vocal Learning
 
