@@ -3,7 +3,7 @@ title: "Selected publications"
 output: html_document
 ---
 
-## 2022 
+## 2022
 
 **Hervais-Adelman** A, Kumar U, Mishra RK, Tripathi VN, Guleria A, Singh JP, Huettig F. How does literacy affect speech processing? Not by enhancing cortical responses to speech, but by promoting connectivity of acoustic-phonetic and graphomotor cortices. The Journal of Neuroscience : the Official Journal of the Society For Neuroscience. PMID 36253084 DOI: 10.1523/JNEUROSCI.1125-21.2022 0.475
 
