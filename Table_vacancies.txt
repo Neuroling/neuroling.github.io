@@ -1,0 +1,16 @@
+Title	Content
+Master Thesis Opportunity!	" *Machine Learning, EEG Neurofeedback and Speech-in-Noise Comprehension*                   
+ Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life.
+ Our project aims at gaining fundamental knowledge on the neurocognitive basis of our ability to comprehend degraded speech in acoustically challenging situations. 
+ We will use **electroencephalography** (EEG) and **machine learning** **decoding** to investigate patterns of brain activity associated with better speech in noise comprehension.
+ The ultimate goal of this project is to define better targets for future neurofeedback.      
+ 
+ - We offer hands-on experience collecting high-quality electrophysiological data and applying advanced signal processing and analysis techniques.     
+ 
+ - Number of theses on this project: 2-3                                                                                           
+ 
+ - Starting date negotiable 
+ 
+ For more details, contact Dr. Gorka Fraga-Gonzalez, gorka.fragagonzalez[at]uzh[punkt]ch   
+ "
+…	…
