@@ -13,7 +13,7 @@
 
 <title>Selected publications</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -141,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -285,29 +281,147 @@ $(document).ready(function () {
 
 
 <div id="section" class="section level2">
+<h2>2023</h2>
+<p>Becker, R., &amp; Hervais-Adelman, A. (2023). Individual theta-band
+cortical entrainment to speech in quiet predicts word-in-noise
+comprehension. Cerebral Cortex Communications. <a
+href="doi:10.1093/texcom/tgad001"
+class="uri">doi:10.1093/texcom/tgad001</a></p>
+</div>
+<div id="section-1" class="section level2">
 <h2>2022</h2>
-<p><strong>Hervais-Adelman</strong> A, Kumar U, Mishra RK, Tripathi VN,
-Guleria A, Singh JP, Huettig F. How does literacy affect speech
-processing? Not by enhancing cortical responses to speech, but by
-promoting connectivity of acoustic-phonetic and graphomotor cortices.
-The Journal of Neuroscience : the Official Journal of the Society For
-Neuroscience. PMID 36253084 DOI: 10.1523/JNEUROSCI.1125-21.2022
-0.475</p>
+<p>Hervais-Adelman A, Kumar U, Mishra RK, Tripathi VN, Guleria A, Singh
+JP, Huettig F. How does literacy affect speech processing? Not by
+enhancing cortical responses to speech, but by promoting connectivity of
+acoustic-phonetic and graphomotor cortices. The Journal of Neuroscience
+: the Official Journal of the Society For Neuroscience. PMID 36253084 <a
+href="doi:10.1523/JNEUROSCI.1125-21.2022"
+class="uri">doi:10.1523/JNEUROSCI.1125-21.2022</a> 0.475</p>
 <p><br />
 Preisig BC, Riecke L, <strong>Hervais-Adelman A</strong>. Speech sound
 categorization: The contribution of non-auditory and auditory cortical
-regions. Neuroimage. 258: 119375. PMID 35700949 DOI:
-10.1016/j.neuroimage.2022.119375 0.798</p>
+regions. Neuroimage. 258: 119375. PMID 35700949 <a
+href="doi:10.1016/j.neuroimage.2022.119375"
+class="uri">doi:10.1016/j.neuroimage.2022.119375</a> 0.798</p>
 <p><br />
 Preisig BC, Hervais-Adelman A. The Predictive Value of Individual
 Electric Field Modeling for Transcranial Alternating Current Stimulation
 Induced Brain Modulation. Frontiers in Cellular Neuroscience. 16:
-818703. PMID 35273479 DOI: 10.3389/fncel.2022.818703 0.751</p>
+818703. PMID 35273479 <a href="doi:10.3389/fncel.2022.818703"
+class="uri">doi:10.3389/fncel.2022.818703</a> 0.751</p>
 <p><br />
 Kliesch M, Becker R, Hervais-Adelman A. Global and localized network
 characteristics of the resting brain predict and adapt to foreign
 language learning in older adults. Scientific Reports. 12: 3633. PMID
-35256672 DOI: 10.1038/s41598-022-07629-y</p>
+35256672 <a href="doi:10.1038/s41598-022-07629-y"
+class="uri">doi:10.1038/s41598-022-07629-y</a></p>
+</div>
+<div id="section-2" class="section level2">
+<h2>2021</h2>
+<p>Hervais-Adelman, A. (2021). Neuroimaging of simultaneous conference
+interpreters. In The Routledge Handbook of Conference Interpreting
+(pp. 471-487): Routledge.</p>
+<p><br />
+Preisig, B. C., Riecke, L., Sjerps, M. J., Kösem, A., Kop, B. R.,
+Bramson, B., . . . Hervais-Adelman, A. (2021). Selective modulation of
+interhemispheric connectivity by transcranial alternating current
+stimulation influences binaural integration. Proceedings of the National
+Academy of Sciences, 118(7), e2015488118. <a
+href="doi:10.1073/pnas.2015488118"
+class="uri">doi:10.1073/pnas.2015488118</a></p>
+<p><br />
+Slivac, K., Hervais-Adelman, A., Hagoort, P., &amp; Flecken, M. (2021).
+Linguistic labels cue biological motion perception and misperception.
+Scientific Reports, 11(1), 17239. <a
+href="doi:10.1038/s41598-021-96649-1"
+class="uri">doi:10.1038/s41598-021-96649-1</a></p>
+<p><br />
+Townsend, S. W., &amp; Hervais-Adelman, A. (2021). Speech segmentation:
+New dogs, old tricks? Current Biology, 31(24), R1580-R1582. <a
+href="doi:10.1016/j.cub.2021.10.042"
+class="uri">doi:10.1016/j.cub.2021.10.042</a></p>
+<p>##2020</p>
+<p>Becker, R., &amp; Hervais-Adelman, A. (2020). Resolving the
+Connectome, Spectrally-Specific Functional Connectivity Networks and
+Their Distinct Contributions to Behavior. eneuro, 7(5),
+ENEURO.0101-0120.2020. <a href="doi:10.1523/eneuro.0101-20.2020"
+class="uri">doi:10.1523/eneuro.0101-20.2020</a></p>
+<p><br />
+Chavant, M., Hervais-Adelman, A., &amp; Macherey, O. (2020). Perceptual
+Learning of Vocoded Speech With and Without Contralateral Hearing:
+Implications for Cochlear Implant Rehabilitation. Journal of Speech,
+Language, and Hearing Research, 1-10. <a
+href="doi:10.1044/2020_JSLHR-20-00385"
+class="uri">doi:10.1044/2020_JSLHR-20-00385</a></p>
+<p><br />
+Hervais-Adelman, A. (2020). Adolfo M. García. The neurocognition of
+translation and interpreting. Interpreting, 22(1), 156-161.</p>
+<p><br />
+Houweling, T., Becker, R., &amp; Hervais-Adelman, A. (2020). The
+noise-resilient brain: Resting-state oscillatory activity predicts
+words-in-noise recognition. Brain and Language, 202, 104727. <a
+href="doi:10.1016/j.bandl.2019.104727"
+class="uri">doi:10.1016/j.bandl.2019.104727</a></p>
+<p><br />
+Keller, L., Hervais-Adelman, A., &amp; Seeber, K. G. (2020). Language
+conflict resolution and behavioural executive control measures in
+simultaneous interpreting. In L. Vandevoorde, J. Daems, &amp; B.
+Defrancq (Eds.), New Empircal Perspectives on Translation and
+Interpreting: Routledge.</p>
+<p><br />
+Preisig, B. C., Sjerps, M. J., Hervais-Adelman, A., Kosem, A., Hagoort,
+P., &amp; Riecke, L. (2020). Bilateral Gamma/Delta Transcranial
+Alternating Current Stimulation Affects Interhemispheric Speech Sound
+Integration. Journal of Cognitive Neuroscience, 32(7), 1242-1250. <a
+href="doi:10.1162/jocn_a_01498"
+class="uri">doi:10.1162/jocn_a_01498</a></p>
+<p><br />
+Seeber, K. G., Keller, L., &amp; Hervais-Adelman, A. (2020). When the
+ear leads the eye - the use of text during simultaneous interpretation.
+Language Cognition and Neuroscience, 35(10), 1480-1494. <a
+href="doi:10.1080/23273798.2020.1799045"
+class="uri">doi:10.1080/23273798.2020.1799045</a></p>
+<p>##2019</p>
+<p>Burra, N., Hervais-Adelman, A., Celeghin, A., de Gelder, B., &amp;
+Pegna, A. J. (2019). Affective blindsight relies on low spatial
+frequencies. Neuropsychologia, 128, 44-49. <a
+href="doi:10.1016/j.neuropsychologia.2017.10.009"
+class="uri">doi:10.1016/j.neuropsychologia.2017.10.009</a></p>
+<p><br />
+Hervais-Adelman, A., &amp; Babcock, L. (2019). The neurobiology of
+simultaneous interpreting: Where extreme language control and cognitive
+control intersect. Bilingualism: Language and Cognition, 23(4), 740-751.
+<a href="doi:10.1017/s1366728919000324"
+class="uri">doi:10.1017/s1366728919000324</a></p>
+<p><br />
+Hervais-Adelman, A., Kumar, U., Mishra, R. K., Tripathi, V. N., Guleria,
+A., Singh, J. P., . . . Huettig, F. (2019). Learning to read recycles
+visual cortical networks without destruction. Science Advances, 5(9),
+eaax0262. <a href="doi:10.1126/sciadv.aax0262"
+class="uri">doi:10.1126/sciadv.aax0262</a></p>
+<p><br />
+Rutten, S., Santoro, R., Hervais-Adelman, A., Formisano, E., &amp;
+Golestani, N. (2019). Cortical encoding of speech enhances task-relevant
+acoustic information. Nature Human Behaviour, 3(9), 974-987. <a
+href="doi:10.1038/s41562-019-0648-9"
+class="uri">doi:10.1038/s41562-019-0648-9</a></p>
+<p>##2018</p>
+<p>Hervais-Adelman, A., Egorova, N., &amp; Golestani, N. (2018). Beyond
+bilingualism: multilingual experience correlates with caudate volume.
+Brain Structure &amp; Function. <a href="doi:10.1007/s00429-018-1695-0"
+class="uri">doi:10.1007/s00429-018-1695-0</a></p>
+<p><br />
+Hervais-Adelman, A., Moser-Mercer, B., &amp; Golestani, N. (2018).
+Commentary: Broca Pars Triangularis Constitutes a “Hub” of the
+Language-Control Network during Simultaneous Language Translation.
+Frontiers in Human Neuroscience, 12, 22. <a
+href="doi:10.3389/fnhum.2018.00022"
+class="uri">doi:10.3389/fnhum.2018.00022</a></p>
+<p><br />
+Pascucci, D., Hervais-Adelman, A., &amp; Plomp, G. (2018). Gating by
+induced Alpha-Gamma asynchrony in selective attention. Human Brain
+Mapping. <a href="doi:10.1002/hbm.24216"
+class="uri">doi:10.1002/hbm.24216</a></p>
 </div>
 
 
