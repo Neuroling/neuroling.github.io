@@ -32,7 +32,7 @@ Slivac, K., Hervais-Adelman, A., Hagoort, P., & Flecken, M. (2021). Linguistic l
 \
 Townsend, S. W., & Hervais-Adelman, A. (2021). Speech segmentation: New dogs, old tricks? Current Biology, 31(24), R1580-R1582. doi:10.1016/j.cub.2021.10.042
 
-##2020
+## 2020
 
 Becker, R., & Hervais-Adelman, A. (2020). Resolving the Connectome, Spectrally-Specific Functional Connectivity Networks and Their Distinct Contributions to Behavior. eneuro, 7(5), ENEURO.0101-0120.2020. doi:10.1523/eneuro.0101-20.2020
 
@@ -54,7 +54,7 @@ Preisig, B. C., Sjerps, M. J., Hervais-Adelman, A., Kosem, A., Hagoort, P., & Ri
 \
 Seeber, K. G., Keller, L., & Hervais-Adelman, A. (2020). When the ear leads the eye - the use of text during simultaneous interpretation. Language Cognition and Neuroscience, 35(10), 1480-1494. doi:10.1080/23273798.2020.1799045
 
-##2019
+## 2019
 
 Burra, N., Hervais-Adelman, A., Celeghin, A., de Gelder, B., & Pegna, A. J. (2019). Affective blindsight relies on low spatial frequencies. Neuropsychologia, 128, 44-49. doi:10.1016/j.neuropsychologia.2017.10.009
 
@@ -67,7 +67,7 @@ Hervais-Adelman, A., Kumar, U., Mishra, R. K., Tripathi, V. N., Guleria, A., Sin
 \
 Rutten, S., Santoro, R., Hervais-Adelman, A., Formisano, E., & Golestani, N. (2019). Cortical encoding of speech enhances task-relevant acoustic information. Nature Human Behaviour, 3(9), 974-987. doi:10.1038/s41562-019-0648-9
 
-##2018
+## 2018
 
 Hervais-Adelman, A., Egorova, N., & Golestani, N. (2018). Beyond bilingualism: multilingual experience correlates with caudate volume. Brain Structure & Function. doi:10.1007/s00429-018-1695-0
 
