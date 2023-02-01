@@ -60,7 +60,7 @@ Applications, with the reference "DNL02",  including your CV, list of publicati
 
 \_\_\_\_\_\_\_\_\_\_\_
 
-### **Master Thesis Opportunity:** Machine Learning, EEG Neurofeedback and degraded speech perception 
+### **Master Thesis Opportunity:** Machine Learning, EEG Neurofeedback and degraded speech perception
 
 Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life.
 
