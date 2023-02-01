@@ -13,7 +13,7 @@
 
 <title>Neurolinguistics</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -141,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -286,8 +282,29 @@ $(document).ready(function () {
 
 <div class="floatting">
 <p><img src="images/logo.png" width="50%" style="float:center; padding:10px" /></p>
-<p>This is the website of neurolinguistics. Currently under
-construction.</p>
+<p>This is the website of the Neurolinguistics group at the University
+of Zurich, headed by Prof. Alexis Hervais-Adelman. Have a look at our <a
+href="Projects.html">ongoing projects</a>, any job and internship <a
+href="Vacancies.html">opportunities</a> and <a
+href="Publications.html">publications</a>.</p>
+<div id="about-us" class="section level2">
+<h2>About Us</h2>
+<p>The neurolingusitics group focuses on the neural basis of language
+using a variety of methodological approaches to answer the very big
+question of “how does language work?”. We employ MRI, M/EEG,
+non-invasive electrical brain stimulation, and neurofeedback to look at
+how the brain processes speech and text. We examine the mechanisms that
+allow us to <a href="Projects.html#audio-motor-integration">comprehend
+speech in noise or other acoustically challenging speech</a>. One of the
+key questions we are interested in is the <a
+href="Projects.html#audio-motor-integration">role of the motor system in
+speech perception</a> and how we might be able to leverage this system
+to improve speech comprehensions for individuals with hearing
+impairments. We explore pre-natal language development and <a
+href="Projects.html#in-utero-vocal-learning">how our experiences in the
+womb affect our speech system</a>, a vital piece of the puzzle in how
+humans evolved spoken language.</p>
+</div>
 </div>
 
 
