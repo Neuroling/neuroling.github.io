@@ -60,7 +60,7 @@ Applications, with the reference "DNL02",  including your CV, list of publicati
 
 \_\_\_\_\_\_\_\_\_\_\_
 
-### **Master Thesis Opportunity:** Machine Learning, EEG Neurofeedback and degraded speech perception
+### **Master Thesis:** Machine Learning, EEG Neurofeedback and degraded speech perception
 
 Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life.
 
@@ -74,6 +74,14 @@ The ultimate goal of this project is to define better targets for future neurofe
 
  - Starting date negotiable
 
-For more details, contact Dr. Gorka Fraga-Gonzalez, gorka.fragagonzalez[at]uzh[punkt]ch
+For more details, contact Dr. Gorka Fraga-Gonzalez, gorka.fragagonzalez@uzh.ch
 
- 
+
+### **Master Thesis:** Audio and video-driven features in audiovisual speech perception
+
+The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment, a majority of the ageing population, so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear – not least with respect to the role of temporal and categorical cues carried by the visual component of speech. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
+
+For more details, contact Enrico Varano, enrico.varano@psychologie.uzh.ch
+
+
+ 
