@@ -74,14 +74,19 @@ The ultimate goal of this project is to define better targets for future neurofe
 
  - Starting date negotiable
 
-For more details, contact Dr. Gorka Fraga-Gonzalez, gorka.fragagonzalez@uzh.ch
-
+For more details, contact Dr. Gorka Fraga-Gonzalez, [gorka.fragagonzalez\@uzh.ch](mailto:gorka.fragagonzalez@uzh.ch){.email}
 
 ### **Master Thesis:** Audio and video-driven features in audiovisual speech perception
 
-The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment, a majority of the ageing population, so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear – not least with respect to the role of temporal and categorical cues carried by the visual component of speech. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
+The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment, a majority of the ageing population, so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear -- not least with respect to the role of temporal and categorical cues carried by the visual component of speech. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
 
-For more details, contact Enrico Varano, enrico.varano@psychologie.uzh.ch
+For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@psychologie.uzh.ch){.email}
 
 
- 
+### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries.
+
+New-born infants are born without any ability to care for themselves and thus require constant caregiver attention for their fundamental needs to be met. Neonates, however, lack the ability to communicate through speech and rely on crying to elicit caregiver attention, with effective crying being sufficiently salient to capture attention, yet not so aversive as to deter caregiver attention.New-born infants have been shown to produce spontaneous cries that are natively accented, and this project aims to investigate whether infant cry accent aids infant survival by mediating the aversiveness of a cry for the caregiver.This project offers potential to develop experience working with large data sets acquired through online studies; the collection and analysis of eye-tracking data; and working with/analysis of auditory stimuli in psychoacoustics research. 
+
+Number of theses: 1-2
+
+For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email}
