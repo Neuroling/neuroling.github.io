@@ -57,7 +57,6 @@ For further details or informal inquiries, please contact: Prof. Dr. Alexis Herv
 Applications, with the reference "DNL02",  including your CV, list of publications (if applicable), motivation letter, names of two referees as a single PDF file should be sent to [Sarah.Krause\@uzh.ch](mailto:Sarah.Krause@uzh.ch). Applications will be considered until the vacancy is filled. 
 
  
-
 \_\_\_\_\_\_\_\_\_\_\_
 
 ### **Master Thesis:** Machine Learning, EEG Neurofeedback and degraded speech perception
@@ -76,12 +75,27 @@ The ultimate goal of this project is to define better targets for future neurofe
 
 For more details, contact Dr. Gorka Fraga-Gonzalez, [gorka.fragagonzalez\@uzh.ch](mailto:gorka.fragagonzalez@uzh.ch){.email}
 
+ 
+\_\_\_\_\_\_\_\_\_\_\_
+
 ### **Master Thesis:** Audio and video-driven features in audiovisual speech perception
 
-The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment, a majority of the ageing population, so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear -- not least with respect to the role of temporal and categorical cues carried by the visual component of speech. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
+The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment – a majority of the ageing population – so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids and for the hearing impaired. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear – not least with respect to the role of temporal and categorical cues carried by the visual component of speech, and to the putative tuning of neural circuitry due to co-evolution of language production and perception. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
 
 For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@psychologie.uzh.ch){.email}
 
+ 
+\_\_\_\_\_\_\_\_\_\_\_
+
+
+### **Master Thesis:** Investigating motor contributions to speech perception using transcranial electrical stimulation
+
+Humans excel at the difficult task of parsing degraded speech. This skill, which is apparent when communicating in noisy environments, in the presence of unattended speakers, or in those wearing hearing prostheses, is underpinned by a hierarchy of complex, distributed neural processes. Perhaps surprisingly, evidence suggests neural circuitry involved in speech production and planning thereof plays an important part in speech perception as well. Despite a concerted effort to confirm and describe the contribution of processes in the motor cortex to speech perception, more work is required to elucidate the matter. This project aims to observe such motor contributions to speech perception by employing a transcranial electrical stimulation paradigm. Findings will contribute to the development of solutions for individuals who suffer from hearing impairment. 
+
+For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@psychologie.uzh.ch){.email}
+
+ 
+\_\_\_\_\_\_\_\_\_\_\_
 
 ### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries.
 

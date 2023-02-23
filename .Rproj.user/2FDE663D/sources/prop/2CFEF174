@@ -1,6 +1,7 @@
 {
     "source_window_id": "",
     "Source": "Source",
+<<<<<<< Updated upstream
     "cursorPosition": "34,26",
     "scrollLine": "0",
     "rmdVisualMode": "false",
@@ -8,4 +9,8 @@
     "rmdVisualModeLocation": "104:0",
     "rmdVisualWrapConfigured": "true",
     "docOutlineVisible": "1"
+=======
+    "cursorPosition": "145,42",
+    "scrollLine": "144"
+>>>>>>> Stashed changes
 }

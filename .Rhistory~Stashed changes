@@ -1,0 +1,512 @@
+wuggywords <- unique(gsub('-','',wuggy$Word))
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(wuggy$Word==gsub('-','',wuggywords[i]))] <- item
+}
+gsub('-','',wuggywords[i])
+wuggy$ITEM[which(gsub('-','',wuggy$Word)==wuggywords[i])] <- item
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(gsub('-','',wuggy$Word)==wuggywords[i])] <- item
+}
+gsub('-','',wuggy$Word)==wuggywords[i])
+which(gsub('-','',wuggy$Word)==wuggywords[i])
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(gsub('-','',wuggy$Word)==wuggywords[i])] <- item
+}
+i
+wuggy$ITEM
+item
+wuggywords[i]
+multipic$CORRECT_SPELL
+which(multipic$CORRECT_SPELL=='Ekke')
+wuggy$Word
+i
+item
+isempty(item)
+length(item)
+length(item)!=0
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(gsub('-','',wuggy$Word)==wuggywords[i])] <- item
+}
+}
+wuggy$ITEM
+View(wuggy)
+# summary wuggy
+wuggy$ITEM <- wuggy$Word
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(gsub('-','',wuggy$Word))
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$ITEM==wuggywords[i])] <- item
+}
+}
+wuggy$ITEM
+# summary wuggy
+wuggy$ITEM <- wuggy$Word
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+wuggy$Word_plain
+if (length(item)!=0){
+which(wuggy$Word_plain==wuggywords[i])]
+}
+which(wuggy$Word_plain==wuggywords[i])
+for (i in 1:length(wuggywords)){
+if (length(item)!=0){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+}
+}
+wuggy
+rm(wuggy)
+wuggy <- readxl::read_xlsx(fileinput,sheet="jnk_wuggy_output_2")
+# summary wuggy
+wuggy$ITEM <- wuggy$Word
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+if (length(item)!=0){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+}
+}
+wuggy
+View(wuggy)
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+if (length(item)!=0){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+}
+}
+wuggy
+wuggywords
+wuggy$Word_plain
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+}
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+}
+}
+wuggy
+View(wuggy)
+wuggy[order(wuggy$ITEM),]
+wuggy <- wuggy[order(wuggy$ITEM),]
+unique(wuggy$ITEM)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- 0
+}
+}
+wuggy <- wuggy[order(wuggy$ITEM),]
+View(wuggy)
+unique(wuggy$ITEM)
+numeric(unique(wuggy$ITEM))
+as/numeric(unique(wuggy$ITEM))
+as.numeric(unique(wuggy$ITEM))
+which(multipic$ITEM %in% as.numeric(unique(wuggy$ITEM)))
+length(which(multipic$ITEM %in% as.numeric(unique(wuggy$ITEM))))
+wuggy_completed <- length(which(multipic$ITEM %in% as.numeric(unique(wuggy$ITEM))))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+wuggy_missing
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="jnk_wuggy_output_2")
+# Summary info
+subtlex_cols <- ncol(subtlex)
+subtlex_missing <- length(which(is.na(subtlex[,3])))
+subtlex_completed <- nrow(subtlex)- length(which(is.na(subtlex[,3])))
+clearpond_cols <- ncol(clearpond)
+clearpond_missing <- length(which(is.na(clearpond[,3])))
+clearpond_completed <- nrow(clearpond)- length(which(is.na(clearpond[,3])))
+# summary wuggy
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- 0
+}
+}
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% as.numeric(unique(wuggy$ITEM))))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+### Gather
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','rows_completed','rows_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+View(wuggy)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="jnk_wuggy_output_2")
+# Summary info
+subtlex_cols <- ncol(subtlex)
+subtlex_missing <- length(which(is.na(subtlex[,3])))
+subtlex_completed <- nrow(subtlex)- length(which(is.na(subtlex[,3])))
+clearpond_cols <- ncol(clearpond)
+clearpond_missing <- length(which(is.na(clearpond[,3])))
+clearpond_completed <- nrow(clearpond)- length(which(is.na(clearpond[,3])))
+# summary wuggy
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- 0
+}
+}
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+### Gather
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','rows_completed','rows_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+View(wuggy)
+View(wuggy)
+wuggy <- readxl::read_xlsx(fileinput,sheet="jnk_wuggy_output_2")
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+str(multipic)
+as.character(multipic$ITEM)
+sort(as.character(multipic$ITEM))
+wuggy[order(wuggy$ITEM),]
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy <- wuggy[order(wuggy$ITEM),]
+head(wuggy)
+wuggy <- wuggy[order(as.character(wuggy$ITEM)),]
+View(wuggy)
+wuggy$ITEM <- as.character(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+View(wuggy)
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy$ITEM <- as.character(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy$ITEM
+wuggy[order(wuggy$ITEM))
+wuggy[order(wuggy$ITEM)]
+wuggy[order(wuggy$ITEM),]
+wuggy[sort(wuggy$ITEM),]
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+fileoutput <- 'C:/Users/gfraga/Downloads/subtlex_select_sort.xlsx'
+fileoutput2 <- 'C:/Users/gfraga/Downloads/clearpond_select_sort.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE_all")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="clearpond-DE-UPDATED")
+# merge multipic ------------------------------------------------------------
+# Select from subtlex only those available in multipic
+subtlex_sel  <- subtlex[which(subtlex$Word %in% multipic$CorrectedSpelling),]
+subtlex_sel[order(subtlex_sel$Word),]
+#Add new variable to merge by
+multipic$Word <- multipic$CorrectedSpelling
+merged <- merge(subtlex_sel,multipic,by='Word',all = TRUE)
+# sort by item number
+merged <- merged[order(merged$ITEM),]
+merged <- dplyr::relocate(merged, ITEM,1)      # item index first
+merged <- merged[,1:which(colnames(merged)=="PICTURE")-1]# trim
+# save
+openxlsx::write.xlsx(merged,fileoutput)
+rm(merged)
+# merge clearpond  ------------------------------------------------------------
+clearpond <- clearpond[1:which(is.na(clearpond$Word)),]
+clearpond <- clearpond[order(clearpond$Word),]
+merged <- merge(clearpond,multipic,by='Word',all.y=TRUE)
+merged <- merged[order(merged$ITEM),]
+merged <- dplyr::relocate(merged, ITEM,1)      # item index first
+merged <- merged[!duplicated(merged$ITEM),]  # rmv duplicates
+# save
+openxlsx::write.xlsx(merged,fileoutput2)
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+fileoutput <- 'C:/Users/gfraga/Downloads/subtlex_select_sort.xlsx'
+fileoutput2 <- 'C:/Users/gfraga/Downloads/clearpond_select_sort.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE_all")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="clearpond-DE")
+# merge multipic ------------------------------------------------------------
+# Select from subtlex only those available in multipic
+subtlex_sel  <- subtlex[which(subtlex$Word %in% multipic$CorrectedSpelling),]
+subtlex_sel[order(subtlex_sel$Word),]
+#Add new variable to merge by
+multipic$Word <- multipic$CorrectedSpelling
+merged <- merge(subtlex_sel,multipic,by='Word',all = TRUE)
+# sort by item number
+merged <- merged[order(merged$ITEM),]
+merged <- dplyr::relocate(merged, ITEM,1)      # item index first
+merged <- merged[,1:which(colnames(merged)=="PICTURE")-1]# trim
+# save
+openxlsx::write.xlsx(merged,fileoutput)
+rm(merged)
+# merge clearpond  ------------------------------------------------------------
+clearpond <- clearpond[1:which(is.na(clearpond$Word)),]
+clearpond <- clearpond[order(clearpond$Word),]
+merged <- merge(clearpond,multipic,by='Word',all.y=TRUE)
+merged <- merged[order(merged$ITEM),]
+merged <- dplyr::relocate(merged, ITEM,1)      # item index first
+merged <- merged[!duplicated(merged$ITEM),]  # rmv duplicates
+# save
+openxlsx::write.xlsx(merged,fileoutput2)
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+fileoutput <- 'C:/Users/gfraga/Downloads/subtlex_select_sort.xlsx'
+fileoutput2 <- 'C:/Users/gfraga/Downloads/clearpond_select_sort.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE_all")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="clearpond-DE")
+# Select from subtlex only those available in multipic
+subtlex_sel  <- subtlex[which(subtlex$Word %in% multipic$CorrectedSpelling),]
+subtlex_sel[order(subtlex_sel$Word),]
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="jnk_wuggy_output_2")
+# Summary info
+subtlex_cols <- ncol(subtlex)
+subtlex_missing <- length(which(is.na(subtlex[,3])))
+subtlex_completed <- nrow(subtlex)- length(which(is.na(subtlex[,3])))
+clearpond_cols <- ncol(clearpond)
+clearpond_missing <- length(which(is.na(clearpond[,3])))
+clearpond_completed <- nrow(clearpond)- length(which(is.na(clearpond[,3])))
+# summary wuggy
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy$ITEM <- as.character(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+### Gather
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','rows_completed','rows_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+wuggy <- wuggy[order(wuggy$ITEM),]
+str(wuggy)
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+str(wuggy)
+wuggy$ITEM <- as.numeric(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+str(wuggy)wuggy
+wuggy
+View(wuggy)
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','rows_completed','rows_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+tbl
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','items_completed','items_missing')
+tbl <- as.data.frame(tbl)
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="Wuggy-DE")
+# Summary info
+subtlex_cols <- ncol(subtlex)
+subtlex_missing <- length(which(is.na(subtlex[,3])))
+subtlex_completed <- nrow(subtlex)- length(which(is.na(subtlex[,3])))
+clearpond_cols <- ncol(clearpond)
+clearpond_missing <- length(which(is.na(clearpond[,3])))
+clearpond_completed <- nrow(clearpond)- length(which(is.na(clearpond[,3])))
+# summary wuggy
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy$ITEM <- as.numeric(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+### Gather
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','items_completed','items_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="Wuggy-DE")
+rm(list=ls())
+fileinput <- 'C:/Users/gfraga/Downloads/stimulus_words_german.xlsx'
+# Read tables
+subtlex <- readxl::read_xlsx(fileinput,sheet="Subtlex-DE")
+multipic <- readxl::read_xlsx(fileinput,sheet="Multipic-DE")
+clearpond<- readxl::read_xlsx(fileinput,sheet="Clearpond-DE")
+wuggy <- readxl::read_xlsx(fileinput,sheet="Wuggy-DE")
+# Summary info
+subtlex_cols <- ncol(subtlex)
+subtlex_missing <- length(which(is.na(subtlex[,3])))
+subtlex_completed <- nrow(subtlex)- length(which(is.na(subtlex[,3])))
+clearpond_cols <- ncol(clearpond)
+clearpond_missing <- length(which(is.na(clearpond[,3])))
+clearpond_completed <- nrow(clearpond)- length(which(is.na(clearpond[,3])))
+# summary wuggy
+wuggy$Word_plain <- gsub('-','',wuggy$Word)
+wuggy$ITEM <- wuggy$Word_plain
+wuggy <- dplyr::relocate(wuggy,ITEM)
+wuggywords <- unique(wuggy$Word_plain)
+for (i in 1:length(wuggywords)){
+item <- multipic$ITEM[which(multipic$CORRECT_SPELL==wuggywords[i])]
+if (length(item)!=0){
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- item
+} else {
+wuggy$ITEM[which(wuggy$Word_plain==wuggywords[i])] <- '0'
+}
+}
+wuggy$ITEM <- as.numeric(wuggy$ITEM)
+wuggy <- wuggy[order(wuggy$ITEM),]
+wuggy_cols <- ncol(wuggy)
+wuggy_completed <- length(which(multipic$ITEM %in% unique(wuggy$ITEM)))
+wuggy_missing <- nrow(multipic)-wuggy_completed
+### Gather
+tbl <-rbind(c('multipic',ncol(multipic),nrow(multipic),nrow(multipic)),
+c('subtlex',subtlex_cols,subtlex_completed,subtlex_missing),
+c('clearpond', clearpond_cols,clearpond_completed,clearpond_missing),
+c('wuggy', wuggy_cols,wuggy_completed,wuggy_missing))
+colnames(tbl) <- c('database','n_variables','items_completed','items_missing')
+tbl <- as.data.frame(tbl)
+#
+openxlsx::write.xlsx(tbl, 'C:/Users/gfraga/Downloads/sinon_database_summary.xlsx')
+d
+life is complicated when you have to okjnmb m,/;'\[]'
+=-[p0o;l'[]-0po9lip[0-=0p[0-po0[9-p[o0-9lkjinm m,nlp[]=]p0[olikj,m;pil/mn biuo9yhjknl,m.;'pl[kojn bhm,/¡'`p0opi89o0p90opo9ip0'`ppo`+`]]
