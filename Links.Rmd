@@ -5,6 +5,8 @@ output: html_document
 
 Institutions, Seminar Series and Mailing Lists
 
+- **UZH Psychology Department**:[Guest Colloquia](https://www.psychologie.uzh.ch/de/institut/aktuell/gaestekoll.html)
+
 - **ZNZ**:[Neuroscience Center Zurich](https://www.neuroscience.uzh.ch/en/news.html) 
 
 - **LiZZ**:[Zurich Center for Linguistics](https://www.linguistik.uzh.ch/en.html) [subscribe to newsletter: https://www.linguistik.uzh.ch/en/whatsup/newsletter.html]
