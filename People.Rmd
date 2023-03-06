@@ -4,15 +4,15 @@ output:
   distill::distill_article:  
     highlight: haddock
     highlight_downlit: false
-
 ---
 
+```{=html}
 <style> 
   distill-site-header {
     background-color: red;
   }
 </style>
-
+```
 ### Prof. Dr. Alexis Hervais-Adelman (Group leader)
 
 ::: floatting
@@ -69,6 +69,7 @@ My research interests lie within auditory cognitive-neuroscience, focusing on af
 <br>
 
 ### Enrico Varano
+
 ::: floatting
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 knitr::include_graphics("images/enrico.jpg")
@@ -83,6 +84,26 @@ Fun fact: Enrico's research career began at the University of Bristol, from whic
 [Scholar profile](https://scholar.google.co.uk/citations?user=OgXjiZAAAAAJ&hl=en)
 
 [ORCID](https://orcid.org/0000-0002-0407-7190)
+:::
+
+<br>
+
+### Alejandra Hüsser
+
+::: floatting
+```{r out.width='40%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Alejandra1.png")
+```
+
+Alejandra Hüsser is transitioning to a postdoctoral position in the Neurolinguistics lab. Her research interests are neurodevelopment, neuropathologies, functional brain networks and brain plasticity in children and adolescents. She has previously investigated cerebral language networks in paediatric patients with epilepsy in the LIONlab at the Université de Montréal. She conducted functional neuroimaging with electroencephalography (EEG) and near-infrared spectroscopy (NIRS) and further has experience in neuropsychological assessments of children and adults both in clinical and scientific settings.
+
+As a post-doctoral fellow Alejandra will focus on the early development of cerebral networksinvolved in speech production and specifically look into prenatal and neonatal brain dynamics of different key brain regions of language networks.
+
+Her work aims to increase the understanding of the developmental trajectory of cerebral language processing, to enlighten how characteristics of the foetus' and infant's brain relates to language abilities and to better identify the alterations related to neuropathologies.
+
+[Scholar profile](https://scholar.google.com/citations?hl=en&user=Eiq8Q8wAAAAJ&view_op=list_works&sortby=pubdate%20%E2%80%98%20Completing%20her%20PhD%20at%20the%20University%20de%20Montr%C3%A9al%20in%20Cognitive%20Neuroscience%20and%20Neuropsychology)
+
+[ORCID](https://orcid.org/0000-0003-4608-8514)
 :::
 
 <br>
