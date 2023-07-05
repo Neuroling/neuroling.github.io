@@ -13,7 +13,7 @@
 
 <title>Vacancies</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -141,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -286,10 +282,6 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a
-href="#post-doctoral-position-neural-dynamics-of-sentence-processing"
-id="toc-post-doctoral-position-neural-dynamics-of-sentence-processing"><strong>Post-Doctoral
-Position</strong>: Neural Dynamics of Sentence Processing</a></li>
-<li><a
 href="#master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"
 id="toc-master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"><strong>Master
 Thesis:</strong> Machine Learning, EEG Neurofeedback and degraded speech
@@ -312,96 +304,33 @@ accented infant-cries.</a></li>
 </ul>
 </div>
 
-<p>___________</p>
-<div id="post-doctoral-position-neural-dynamics-of-sentence-processing"
-class="section level3">
-<h3><strong>Post-Doctoral Position</strong>: Neural Dynamics of Sentence
-Processing</h3>
-<p>The <em>neurolinguisitics</em> team at the <em>University of
-Zurich</em> is recruiting a post-doctoral researcher with expertise in
-M/EEG and an interest in the neural basis of speech and language to work
-on a four-year cross-linguistic multidisciplinary project examining
-multiple aspects of naturalistic speech processing and reading. The
-project involves close collaboration between neurolinguists (<a
-href="https://neuroling.github.io/">Alexis Hervais-Adelman</a>),
-computational linguists (<a
-href="https://www.cl.uzh.ch/en/digital-linguistics/people/group-leader/jaeger.html">Lena
-Jäger</a>) and linguists (<a
-href="https://www.linguistik.uzh.ch/en/about/mitglieder/hundt.html">Marianne
-Hundt</a>, <a
-href="https://www.isw.unibe.ch/ueber_uns/personen/prof_dr_ziga_fernando/index_ger.html">Fernando
-Zúñiga</a>). </p>
-<p>The successful candidate will be responsible for the implementation
-of a series of investigations that examine the neural signatures of
-various combinatorial processes and combine computational linguistic
-approaches to semantic embedding spaces with temporally resolved brain
-recordings in order to elucidate the neural signatures of combinatorial
-meaning-building operations using MEG.  </p>
-<p><strong>Person Specification:</strong> </p>
-<p>You have a strong methodological background M/EEG, an interest in
-neurolinguistics and a passion for multidisciplinary research. You are
-able to communicate and collaborate productively with scholars of
-different disciplines. You are solution-oriented, well-organised and
-enjoy taking the lead. You share your expertise with other members of
-the team and actively contribute to project development. You have a
-desire to learn new techniques and determination to master complex
-analyses.  </p>
-<p><strong>Requirements:</strong> </p>
-<ul>
-<li><p>PhD in a relevant discipline (e.g. Cognitive neuroscience of
-language or a related field) </p></li>
-<li><p>Significant expertise in M/EEG, including data acquisition,
-preprocessing and advanced analysis  </p></li>
-<li><p>Programming skills required for data analysis and experimental
-design (e.g. Psychtoolbox, PsychoPy, MNE-python, scikit-learn) </p></li>
-</ul>
-<!-- -->
-<ul>
-<li><p>Excellent written and spoken English </p></li>
-<li><p>Experience supervising students (MSc./Ph.D.) and research
-assistants </p></li>
-<li><p> A proven record of publication of M/EEG experiments in
-peer-reviewed journals appropriate for the career stage </p></li>
-</ul>
-<p>Desirable </p>
-<ul>
-<li>Flexibility to travel for off-site data acquisition </li>
-</ul>
-<!-- -->
-<ul>
-<li><p>Analysis of time-resolved imaging data using temporal response
-function  </p></li>
-<li><p>Familiarity with multivariate analysis methods including
-decoding/encoding approaches </p></li>
-</ul>
-<p><strong>The Team</strong> </p>
-<p>The Neurolinguistics group in the Department of Psychology at the
-University of Zurich investigates the neural basis of language using
-multimethodological approaches including M/EEG, fMRI and brain
-stimulation. In addition to affiliation in the Department of Psychology,
-the successful candidate will benefit from an inspiring
-multidisciplinary research environment thanks to close contact with the
-<a href="https://evolvinglanguage.ch/">NCCR Evolving Language</a>, the
-<a href="https://www.linguistik.uzh.ch/de.html">Zurich Centre for
-Linguistics</a> and the <a
-href="https://www.neuroscience.uzh.ch/en.html">Zurich Centre for
-Neuroscience</a>.  </p>
-<p>We offer an inspiring research environment in an enthusiastic team,
-and the possibility of developing your profile within the scope of the
-project at one of Europe’s leading (LERU) universities in one of the top
-ten most livable cities world-wide. </p>
-<p><strong>Desired start date</strong>: as soon as practicable, flexible
-for the appropriate candidate.  </p>
-<p>For further details or informal inquiries, please contact:
-Prof. Dr. Alexis Hervais-Adelman, <a
-href="mailto:alexis.hervais-adelman@psychologie.uzh.ch">alexis.hervais-adelman@psychologie.uzh.ch</a> </p>
-<p>Applications, with the reference “DNL02”,  including your CV, list of
-publications (if applicable), motivation letter, names of two referees
-as a single PDF file should be sent to <a
-href="mailto:Sarah.Krause@uzh.ch">Sarah.Krause@uzh.ch</a>. Applications
-will be considered until the vacancy is filled. </p>
-<p>  ___________</p>
-</div>
+<!-- \_\_\_\_\_\_\_\_\_\_\_ -->
+<!-- ### **Post-Doctoral Position**: Neural Dynamics of Sentence Processing -->
+<!-- The *neurolinguisitics* team at the *University of Zurich* is recruiting a post-doctoral researcher with expertise in M/EEG and an interest in the neural basis of speech and language to work on a four-year cross-linguistic multidisciplinary project examining multiple aspects of naturalistic speech processing and reading. The project involves close collaboration between neurolinguists ([Alexis Hervais-Adelman](https://neuroling.github.io/)), computational linguists ([Lena Jäger](https://www.cl.uzh.ch/en/digital-linguistics/people/group-leader/jaeger.html)) and linguists ([Marianne Hundt](https://www.linguistik.uzh.ch/en/about/mitglieder/hundt.html), [Fernando Zúñiga](https://www.isw.unibe.ch/ueber_uns/personen/prof_dr_ziga_fernando/index_ger.html)).  -->
+<!-- The successful candidate will be responsible for the implementation of a series of investigations that examine the neural signatures of various combinatorial processes and combine computational linguistic approaches to semantic embedding spaces with temporally resolved brain recordings in order to elucidate the neural signatures of combinatorial meaning-building operations using MEG.   -->
+<!-- **Person Specification:**  -->
+<!-- You have a strong methodological background M/EEG, an interest in neurolinguistics and a passion for multidisciplinary research. You are able to communicate and collaborate productively with scholars of different disciplines. You are solution-oriented, well-organised and enjoy taking the lead. You share your expertise with other members of the team and actively contribute to project development. You have a desire to learn new techniques and determination to master complex analyses.   -->
+<!-- **Requirements:**  -->
+<!-- -   PhD in a relevant discipline (e.g. Cognitive neuroscience of language or a related field)  -->
+<!-- -   Significant expertise in M/EEG, including data acquisition, preprocessing and advanced analysis   -->
+<!-- -   Programming skills required for data analysis and experimental design (e.g. Psychtoolbox, PsychoPy, MNE-python, scikit-learn)  -->
+<!-- <!-- -->
+<!-- -   Excellent written and spoken English  -->
+<!-- -   Experience supervising students (MSc./Ph.D.) and research assistants  -->
+<!-- -    A proven record of publication of M/EEG experiments in peer-reviewed journals appropriate for the career stage  -->
+<!-- Desirable  -->
+<!-- -   Flexibility to travel for off-site data acquisition  -->
+<!-- <!-- -->
+<!-- -   Analysis of time-resolved imaging data using temporal response function   -->
+<!-- -   Familiarity with multivariate analysis methods including decoding/encoding approaches  -->
+<!-- **The Team**  -->
+<!-- The Neurolinguistics group in the Department of Psychology at the University of Zurich investigates the neural basis of language using multimethodological approaches including M/EEG, fMRI and brain stimulation. In addition to affiliation in the Department of Psychology, the successful candidate will benefit from an inspiring multidisciplinary research environment thanks to close contact with the [NCCR Evolving Language](https://evolvinglanguage.ch/), the [Zurich Centre for Linguistics](https://www.linguistik.uzh.ch/de.html) and the [Zurich Centre for Neuroscience](https://www.neuroscience.uzh.ch/en.html).   -->
+<!-- We offer an inspiring research environment in an enthusiastic team, and the possibility of developing your profile within the scope of the project at one of Europe's leading (LERU) universities in one of the top ten most livable cities world-wide.  -->
+<!-- **Desired start date**: as soon as practicable, flexible for the appropriate candidate.   -->
+<!-- For further details or informal inquiries, please contact: Prof. Dr. Alexis Hervais-Adelman, [alexis.hervais-adelman\@psychologie.uzh.ch](mailto:alexis.hervais-adelman@psychologie.uzh.ch)  -->
+<!-- Applications, with the reference "DNL02",  including your CV, list of publications (if applicable), motivation letter, names of two referees as a single PDF file should be sent to [Sarah.Krause\@uzh.ch](mailto:Sarah.Krause@uzh.ch). Applications will be considered until the vacancy is filled.  -->
+<!--   -->
+<!-- \_\_\_\_\_\_\_\_\_\_\_ -->
 <div
 id="master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"
 class="section level3">
