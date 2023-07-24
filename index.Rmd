@@ -9,14 +9,9 @@ output: html_document
 knitr::include_graphics("images/logo.png")
 ```
 
-This is the website of the Neurolinguistics group at the University of Zurich, headed by Prof. Alexis Hervais-Adelman. 
-Have a look at our [ongoing projects](Projects.html), any job and internship [opportunities](Vacancies.html) and [publications](Publications.html).
-
+This is the website of the Neurolinguistics group at the University of Zurich, headed by Prof. Alexis Hervais-Adelman. Have a look at our [ongoing projects](Projects.html), any job and internship [opportunities](Vacancies.html) and [publications](Publications.html).
 
 ## About Us
-The neurolingusitics group focuses on the neural basis of language using a variety of methodological approaches to answer the very big question of "how does language work?". 
-We employ MRI, M/EEG, non-invasive electrical brain stimulation, and neurofeedback to look at how the brain processes speech and text.
-We examine the mechanisms that allow us to [comprehend speech in noise or other acoustically challenging speech](Projects.html#audio-motor-integration).
-One of the key questions we are interested in is the [role of the motor system in speech perception](Projects.html#audio-motor-integration) and how we might be able to leverage this system to improve speech comprehensions for individuals with hearing impairments.
-We explore pre-natal language development and [how our experiences in the womb affect our speech system](Projects.html#in-utero-vocal-learning), a vital piece of the puzzle in how humans evolved spoken language.
+
+The neurolingusitics group focuses on the neural basis of language using a variety of methodological approaches to answer the very big question of "how does language work?". We employ MRI, M/EEG, non-invasive electrical brain stimulation, and neurofeedback to look at how the brain processes speech and text. We examine the mechanisms that allow us to [comprehend speech in noise or other acoustically challenging speech](Projects.html#audio-motor-integration). One of the key questions we are interested in is the [role of the motor system in speech perception](Projects.html#audio-motor-integration) and how we might be able to leverage this system to improve speech comprehensions for individuals with hearing impairments. We explore pre-natal language development and [how our experiences in the womb affect our speech system](Projects.html#in-utero-vocal-learning), a vital piece of the puzzle in how humans evolved spoken language.
 :::
