@@ -15,5 +15,5 @@ navbar:
     - text: "Links"
       href: Links.html
     - text: "Documentation"
-      href: LabDocumentation/Intro.html
+      href: Documentation.html
 output_dir: "docs"
