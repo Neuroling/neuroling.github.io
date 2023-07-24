@@ -11,7 +11,7 @@
 
 
 
-<title>Current projects</title>
+<title>Lab documentation</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,8 +29,10 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
@@ -224,10 +226,70 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
 
 
 
@@ -237,6 +299,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -284,117 +356,21 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
-<h1 class="title toc-ignore">Current projects</h1>
+<h1 class="title toc-ignore">Lab documentation</h1>
 
 </div>
 
 
-<style>
-  .nav-pills>li>a:hover, .nav-pills>li>a:focus, .nav-pills>li.active>a,     .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
-     background-color: BalloonBlue; 
-     }
-</style>
-<!-- https://www.angularfix.com/2021/10/how-to-change-tabset-colors-without.html -->
-<div id="section"
-class="section level1 tabset tabset-fade tabset-pills">
-<h1 class="tabset tabset-fade tabset-pills"></h1>
-<div id="audio-motor-integration" class="section level2">
-<h2>Audio-Motor Integration</h2>
-<p>Last compiled: 2023-07-24</p>
-<p><strong>Exploring audio-motor integration: a novel approach to
-overcoming hearing impairment</strong></p>
-<p>Human speech perception is robust in the face of adverse listening
-conditions, such as reverberation and background noise. Hearing loss
-imposes perceptual difficulty in speech perception by degrading incoming
-speech signals. It is an increasingly common disability and has large
-societal costs. Recent neuroimaging work has suggested that one
-mechanism of restoration of a degraded speech signal is couched in
-articulatory-motor representations. This project seeks to investigate,
-using multiple different methods, the neural substrates of degraded
-speech perception, and specifically the role of articulatory-motor
-representations. In addition to enhancing our understanding of the
-neurobiology of language, this can be applied to the development of
-novel training methods to enable hearing-impaired individuals to enhance
-and exploit articulatory-auditory links to improve their speech
-comprehension abilities.</p>
-<p><strong>Publications</strong></p>
-<p>Houweling, T., Becker, R., &amp; Hervais-Adelman, A. (2020). The
-noise-resilient brain: Resting-state oscillatory activity predicts
-words-in-noise recognition. Brain Lang, 202, 104727. <a
-href="https://www.sciencedirect.com/science/article/pii/S0093934X19303438">doi:10.1016/j.bandl.2019.104727</a></p>
-<p>Becker, R., &amp; Hervais-Adelman, A. (2020). Resolving the
-Connectome, Spectrally-Specific Functional Connectivity Networks and
-Their Distinct Contributions to Behavior. eNeuro, 7(5),
-ENEURO.0101-0120.2020. <a
-href="https://www.eneuro.org/content/7/5/ENEURO.0101-20.2020">doi:10.1523/eneuro.0101-20.2020&gt;</a></p>
-</div>
-<div id="in-utero-vocal-learning" class="section level2">
-<h2>In Utero Vocal Learning</h2>
-<p>Last compiled: 2023-07-24</p>
-<p>Human Infants are born crying with an accent that reflects the pitch
-accent of the language of the environment in which they gestate.</p>
-<p>This strand of research concerns itself with this from two
-perspectives:</p>
-<ol style="list-style-type: decimal">
-<li>How does a fetus learn to implement an accent, despite having no
-opportunity to practice vocalisation <em>in utero</em>?</li>
-<li>Is there a benefit to a newborn of crying with a “native”
-accent?</li>
-</ol>
-<p>In order to address these questions we are undertaking an SNF-funded
-investigation to examine the acoustic features of infants’ cries that
-make them more or less aversive or salient to potential caregivers and
-the <em>in utero</em> cerebral processes that underpin acquisition of
-early precursors of human speech.</p>
-<p><img src="images/Scanner_setup_wbkgd.png" /></p>
-</div>
-<div id="speech-comprehension" class="section level2">
-<h2>Speech comprehension</h2>
-<p>Last compiled: 2023-07-24</p>
-<p>Reduced speech comprehension ability is a major consequence of
-hearing impairments. Specially in acoustically challenging situations,
-difficulties in speech perception and comprehension can have major
-consequences for quality of life. The goal of this project is to gain
-knowledge into the cognitive and brain mechanisms involved in
-speech-in-noise comprehension. Ultimately, we search for novel insights
-to guide future aid technologies.</p>
-<p>There are two related projects:</p>
-<ol style="list-style-type: decimal">
-<li>Speech-in-noise online (SINON) investigates perception and
-decision-making processes. The study involves auditory presentation of
-speech embedded in different types and levels of noise to a healthy
-population performing different tasks probing speech comprehension. The
-outputs of the project will directly inform the paradigm design of a
-subsequent neurofeedback proof-of-concept investigation.</li>
-</ol>
-<!-- -->
-<ol start="2" style="list-style-type: decimal">
-<li>Speech-in-noise electroencephalography (SINEEG). This project will
-investigate patterns of electrophysiological activity associated with
-better speech in noise comprehension. Real-time EEG analysis will be
-used to trigger stimuli presentation when participants show specific
-brain-states. Comparing performance in those brain-dependent trials vs
-independent trials will help defining targets for future
-neurofeedback-based studies.</li>
-</ol>
-</div>
-</div>
-<div id="section-1" class="section level1 unnumbered">
-<h1 class="unnumbered"></h1>
-</div>
+<p>Visit the documentation site: <a
+href="https://neuroling.github.io/LabDocumentation/intro.html"
+class="uri">https://neuroling.github.io/LabDocumentation/intro.html</a></p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -426,12 +402,36 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+
 <script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
 });
 </script>
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
