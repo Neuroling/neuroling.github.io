@@ -15,5 +15,5 @@ navbar:
     - text: "Links"
       href: Links.html
     - text: "Documentation"
-      href: Documentation.html
+      href: https://neuroling.github.io/LabDocumentation/intro.html
 output_dir: "docs"
