@@ -171,6 +171,17 @@ Samuel Alexander Müller is working as a research assistant while finishing up h
 
 :::
 
+### Sibylle Meier
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Sibylle.jpg")
+```
+
+Sibylle Meier is currently pursuing a Master of Science in Psychology at the University of Zurich. During her studies, she focused on neuropsychology in addition to clinical psychology. Among other things, she dealt with a wide variety of methods to study structural and/or functional changes in the brain. During her six-month internship at the Lengg Clinic for inpatient neurorehabilitation, she also worked daily with patients whose cognitive functions were impaired by accident or disease. She would now like to deepen her theoretical knowledge as well as her practical experience in the field of neuropsychology through her master thesis by participating in  the research on the topic "Real-Time Neurofeedback for Enhancing Speech Comprehension in Noise". She is particularly interested in the used research methods such as electroencephalography (EEG) and the resulting possibilities for statistical data analysis. 
+
+:::
+
 ### Besim Prenaj
 
 ::: floatting
