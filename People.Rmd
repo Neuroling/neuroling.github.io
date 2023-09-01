@@ -136,6 +136,63 @@ knitr::include_graphics("images/Lea.jpg")
 Lea Bächlin is a master's student in psychology at the University of Zurich. She is interested in mechanisms of perception and sleep as well as in neuroscientific methods in general. She received her bachelor's degree from the University of Berne with a focus on neuroscience. During her undergraduate studies, she worked as a research assistant on a study using electroencephalography (EEG) to investigate auditory processing during sleep. As a research assistant in the Division of Neurolinguistics, she is analyzing functional magnetic resonance (fMRI) data collected at the Donders Institute for Brain, Cognition and Behaviour, Nijmegen, The Netherlands. This project combines transcranial direct-current stimulation (tDCS) and fMRI to examine the role of motor cortices in speech in noise perception.
 :::
 
+### Zachary William Hopton
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Zachary.jpeg")
+```
+
+Zachary Hopton is a master's student at the University of Zürich studying computational linguistics and evolutionary language science.
+He received his bachelor's degree from the Georgia Institute of Technology, where he spent two years researching the neural activity underpinning
+episodic memory changes associated with aging and depression. He is currently working with the lab as a research assistant analyzing fMRI data to study Broca's area and its right-hemisphere homologue. Zachary is especially excited to explore how concepts from cognitive neuroscience and natural language processing can inform each other.
+:::
+
+### Remo Gruber
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Remo.jpg")
+```
+
+Remo Gruber is currently working on his Master's thesis at the Division of Neurolinguistics at the University of Zürich where he is examining the nature of infant cries as a communicative signal, and on how they may have evolved over time elicit responses from parents and caregivers. Following his strong interest in neurolinguistics, he has written his Bachelor's thesis at the Division of Neurolinguistics on the subject of arithmetic skills and their relation to words for numbers.
+
+His secondary interest lies within clinical psychology. Currently, Remo combines his Master's thesis at Neuroliguistics with an internship at the University Hospital Zürich, conducting research on the early detection of psychosis with a focus on resilience factors.
+
+:::
+### Samuel Alexander Müller
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Sam.jpg")
+```
+
+Samuel Alexander Müller is working as a research assistant while finishing up his Master's degree in Cognitive Neuroscience at the University of Fribourg. Both his Bachelor and his Master Thesis use EEG, ECG, and a signal discrimination task to explore the connection between cardiac signals and the brain, under the kind supervision of Dr. Juliane Britz. In his time in Fribourg, he was able to give mentorship classes to first-year bachelor students in several subjects. He enjoys working with Python to process and analyse EEG data and plans on pursuing an academic career.
+
+:::
+
+### Besim Prenaj
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Besim.jpg")
+```
+
+As part of his Master's program at the University of Zurich, Besim Prenaj explores language development in his thesis, focusing on speech production. He investigates the functional brain areas of infants using rs-fMRI data collected by the dHCP. He is interested in how different brain areas interact, their developmental interrelationships, and the roles they play in both individual human development and in the evolutionary history of humans. Besim has completed a clinical internship, but over his academic journey, his passion for neuroscience has intensified. He is interested in understanding how the brain produces language, and moreover, how language evolved to shape our species, and how it continues to shape our brains.
+
+:::
+
+### Diana Bürkler-Torosjan
+
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/blank.jpg")
+```
+
+Diana Bürkler-Torosjan is a part-time research assistant in this lab. She is currently conducting a follow-up examination based on her master’s thesis, focusing on the role of neuroanatomy in speech perception during noise. Diana completed her Master’s degree in Psychology at the University of Zurich and is currently working in a neurological rehabilitation center. Her interests encompass clinical neuropsychology and neuroscience
+
+:::
+
 ### Anouk Glättli
 
 ::: floatting
