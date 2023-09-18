@@ -13,7 +13,7 @@
 
 <title>Vacancies</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24.2/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -178,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -259,6 +252,9 @@ $(document).ready(function () {
   <a href="People.html">People</a>
 </li>
 <li>
+  <a href="Alumni.html">Lab Alumni</a>
+</li>
+<li>
   <a href="Vacancies.html">Vacancies</a>
 </li>
 <li>
@@ -286,11 +282,6 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a
-href="#master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"
-id="toc-master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"><strong>Master
-Thesis:</strong> Machine Learning, EEG Neurofeedback and degraded speech
-perception</a></li>
-<li><a
 href="#master-thesis-audio-and-video-driven-features-in-audiovisual-speech-perception"
 id="toc-master-thesis-audio-and-video-driven-features-in-audiovisual-speech-perception"><strong>Master
 Thesis:</strong> Audio and video-driven features in audiovisual speech
@@ -300,11 +291,6 @@ href="#master-thesis-investigating-motor-contributions-to-speech-perception-usin
 id="toc-master-thesis-investigating-motor-contributions-to-speech-perception-using-transcranial-electrical-stimulation"><strong>Master
 Thesis:</strong> Investigating motor contributions to speech perception
 using transcranial electrical stimulation</a></li>
-<li><a
-href="#master-thesis-behaviouralphysiological-responses-to-natively-accented-infant-cries."
-id="toc-master-thesis-behaviouralphysiological-responses-to-natively-accented-infant-cries."><strong>Master
-Thesis:</strong> Behavioural/Physiological responses to natively
-accented infant-cries.</a></li>
 </ul>
 </div>
 
@@ -333,33 +319,16 @@ accented infant-cries.</a></li>
 <!-- **Desired start date**: as soon as practicable, flexible for the appropriate candidate.   -->
 <!-- For further details or informal inquiries, please contact: Prof. Dr. Alexis Hervais-Adelman, [alexis.hervais-adelman\@psychologie.uzh.ch](mailto:alexis.hervais-adelman@psychologie.uzh.ch)  -->
 <!-- Applications, with the reference "DNL02",  including your CV, list of publications (if applicable), motivation letter, names of two referees as a single PDF file should be sent to [Sarah.Krause\@uzh.ch](mailto:Sarah.Krause@uzh.ch). Applications will be considered until the vacancy is filled.  -->
-<!--   -->
 <!-- \_\_\_\_\_\_\_\_\_\_\_ -->
-<div
-id="master-thesis-machine-learning-eeg-neurofeedback-and-degraded-speech-perception"
-class="section level3">
-<h3><strong>Master Thesis:</strong> Machine Learning, EEG Neurofeedback
-and degraded speech perception</h3>
-<p>Reduced speech comprehension due to hearing impairments which can
-have dramatic consequences for quality of life.</p>
-<p>Our project aims at gaining fundamental knowledge on the
-neurocognitive basis of our ability to comprehend degraded speech in
-acoustically challenging situations. We will use
-<em>electroencephalography</em> (EEG) and <em>machine learning
-decoding</em> to investigate patterns of brain activity associated with
-better speech in noise comprehension.</p>
-<p>The ultimate goal of this project is to define better targets for
-future neurofeedback.</p>
-<p> - We offer hands-on experience collecting high-quality
-electrophysiological data and applying advanced signal processing and
-analysis techniques.    </p>
-<p> - Number of theses on this project: 2-3</p>
-<p> - Starting date negotiable</p>
-<p>For more details, contact Dr. Gorka Fraga-Gonzalez, <a
-href="mailto:gorka.fragagonzalez@uzh.ch"
-class="email">gorka.fragagonzalez@uzh.ch</a></p>
+<!-- ### **Master Thesis:** Machine Learning, EEG Neurofeedback and degraded speech perception -->
+<!-- Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life. -->
+<!-- Our project aims at gaining fundamental knowledge on the neurocognitive basis of our ability to comprehend degraded speech in acoustically challenging situations. We will use *electroencephalography* (EEG) and *machine learning decoding* to investigate patterns of brain activity associated with better speech in noise comprehension. -->
+<!-- The ultimate goal of this project is to define better targets for future neurofeedback. -->
+<!--  - We offer hands-on experience collecting high-quality electrophysiological data and applying advanced signal processing and analysis techniques.     -->
+<!--  - Number of theses on this project: 2-3 -->
+<!--  - Starting date negotiable -->
+<!-- For more details, contact Dr. Gorka Fraga-Gonzalez, [gorka.fragagonzalez\@uzh.ch](mailto:gorka.fragagonzalez@uzh.ch){.email} -->
 <p>  ___________</p>
-</div>
 <div
 id="master-thesis-audio-and-video-driven-features-in-audiovisual-speech-perception"
 class="section level3">
@@ -409,29 +378,10 @@ from hearing impairment. </p>
 href="mailto:enrico.varano@psychologie.uzh.ch"
 class="email">enrico.varano@psychologie.uzh.ch</a></p>
 <p>  ___________</p>
-</div>
-<div
-id="master-thesis-behaviouralphysiological-responses-to-natively-accented-infant-cries."
-class="section level3">
-<h3><strong>Master Thesis:</strong> Behavioural/Physiological responses
-to natively accented infant-cries.</h3>
-<p>New-born infants are born without any ability to care for themselves
-and thus require constant caregiver attention for their fundamental
-needs to be met. Neonates, however, lack the ability to communicate
-through speech and rely on crying to elicit caregiver attention, with
-effective crying being sufficiently salient to capture attention, yet
-not so aversive as to deter caregiver attention.New-born infants have
-been shown to produce spontaneous cries that are natively accented, and
-this project aims to investigate whether infant cry accent aids infant
-survival by mediating the aversiveness of a cry for the caregiver.This
-project offers potential to develop experience working with large data
-sets acquired through online studies; the collection and analysis of
-eye-tracking data; and working with/analysis of auditory stimuli in
-psychoacoustics research.</p>
-<p>Number of theses: 1-2</p>
-<p>For more details, contact Huw Swanborough – <a
-href="mailto:huw.swanborough@uzh.ch"
-class="email">huw.swanborough@uzh.ch</a></p>
+<!-- ### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries. -->
+<!-- New-born infants are born without any ability to care for themselves and thus require constant caregiver attention for their fundamental needs to be met. Neonates, however, lack the ability to communicate through speech and rely on crying to elicit caregiver attention, with effective crying being sufficiently salient to capture attention, yet not so aversive as to deter caregiver attention.New-born infants have been shown to produce spontaneous cries that are natively accented, and this project aims to investigate whether infant cry accent aids infant survival by mediating the aversiveness of a cry for the caregiver.This project offers potential to develop experience working with large data sets acquired through online studies; the collection and analysis of eye-tracking data; and working with/analysis of auditory stimuli in psychoacoustics research. -->
+<!-- Number of theses: 1-2 -->
+<!-- For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email} -->
 </div>
 
 

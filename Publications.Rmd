@@ -1,6 +1,17 @@
 ---
 title: "Selected publications"
-output: html_document
+output:
+  html_document:
+  #  code_folding: hide
+    toc: false
+    toc_float: true
+    collapsed: true
+    number_sections: false
+    toc_depth: 3
+# output: 
+#   distill::distill_article:  
+#     highlight: haddock
+#     highlight_downlit: false
 ---
 ## 2023
 Araujo, S., Narang, V., Misra, D., Lohagun, N., Khan, O., Singh, A., Mishra, R. K., Hervais-Adelman, A., Huettig, F. (In Press). A literacy-related color-specific deficit in rapid automatized naming: Evidence from neurotypical completely illiterate and literate adults. Journal of Experimental Psychology: General. 

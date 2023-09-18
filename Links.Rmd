@@ -1,6 +1,17 @@
 ---
 title: "Links"
-output: html_document
+output:
+  html_document:
+    #code_folding: hide
+    toc: false
+    toc_float: true
+    collapsed: true
+    number_sections: false
+    toc_depth: 3
+# output: 
+#   distill::distill_article:  
+#     highlight: haddock
+#     highlight_downlit: false
 ---
 [UZH Administrative Information](Admin.html)
 

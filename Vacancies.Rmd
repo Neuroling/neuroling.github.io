@@ -1,9 +1,13 @@
 ---
 title: "Vacancies"
-output: 
+output:
   html_document:
     toc: true
     toc_depth: 3
+# output:
+#   distill::distill_article:
+#     highlight: haddock
+#     highlight_downlit: false
 ---
 
 <!-- \_\_\_\_\_\_\_\_\_\_\_ -->
@@ -56,25 +60,25 @@ output:
 
 <!-- Applications, with the reference "DNL02",  including your CV, list of publications (if applicable), motivation letter, names of two referees as a single PDF file should be sent to [Sarah.Krause\@uzh.ch](mailto:Sarah.Krause@uzh.ch). Applications will be considered until the vacancy is filled.  -->
 
-<!--   -->
+
 
 <!-- \_\_\_\_\_\_\_\_\_\_\_ -->
 
-### **Master Thesis:** Machine Learning, EEG Neurofeedback and degraded speech perception
+<!-- ### **Master Thesis:** Machine Learning, EEG Neurofeedback and degraded speech perception -->
 
-Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life.
+<!-- Reduced speech comprehension due to hearing impairments which can have dramatic consequences for quality of life. -->
 
-Our project aims at gaining fundamental knowledge on the neurocognitive basis of our ability to comprehend degraded speech in acoustically challenging situations. We will use *electroencephalography* (EEG) and *machine learning decoding* to investigate patterns of brain activity associated with better speech in noise comprehension.
+<!-- Our project aims at gaining fundamental knowledge on the neurocognitive basis of our ability to comprehend degraded speech in acoustically challenging situations. We will use *electroencephalography* (EEG) and *machine learning decoding* to investigate patterns of brain activity associated with better speech in noise comprehension. -->
 
-The ultimate goal of this project is to define better targets for future neurofeedback.
+<!-- The ultimate goal of this project is to define better targets for future neurofeedback. -->
 
- - We offer hands-on experience collecting high-quality electrophysiological data and applying advanced signal processing and analysis techniques.    
+<!--  - We offer hands-on experience collecting high-quality electrophysiological data and applying advanced signal processing and analysis techniques.     -->
 
- - Number of theses on this project: 2-3
+<!--  - Number of theses on this project: 2-3 -->
 
- - Starting date negotiable
+<!--  - Starting date negotiable -->
 
-For more details, contact Dr. Gorka Fraga-Gonzalez, [gorka.fragagonzalez\@uzh.ch](mailto:gorka.fragagonzalez@uzh.ch){.email}
+<!-- For more details, contact Dr. Gorka Fraga-Gonzalez, [gorka.fragagonzalez\@uzh.ch](mailto:gorka.fragagonzalez@uzh.ch){.email} -->
 
   \_\_\_\_\_\_\_\_\_\_\_
 
@@ -94,10 +98,10 @@ For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mai
 
   \_\_\_\_\_\_\_\_\_\_\_
 
-### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries.
+<!-- ### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries. -->
 
-New-born infants are born without any ability to care for themselves and thus require constant caregiver attention for their fundamental needs to be met. Neonates, however, lack the ability to communicate through speech and rely on crying to elicit caregiver attention, with effective crying being sufficiently salient to capture attention, yet not so aversive as to deter caregiver attention.New-born infants have been shown to produce spontaneous cries that are natively accented, and this project aims to investigate whether infant cry accent aids infant survival by mediating the aversiveness of a cry for the caregiver.This project offers potential to develop experience working with large data sets acquired through online studies; the collection and analysis of eye-tracking data; and working with/analysis of auditory stimuli in psychoacoustics research.
+<!-- New-born infants are born without any ability to care for themselves and thus require constant caregiver attention for their fundamental needs to be met. Neonates, however, lack the ability to communicate through speech and rely on crying to elicit caregiver attention, with effective crying being sufficiently salient to capture attention, yet not so aversive as to deter caregiver attention.New-born infants have been shown to produce spontaneous cries that are natively accented, and this project aims to investigate whether infant cry accent aids infant survival by mediating the aversiveness of a cry for the caregiver.This project offers potential to develop experience working with large data sets acquired through online studies; the collection and analysis of eye-tracking data; and working with/analysis of auditory stimuli in psychoacoustics research. -->
 
-Number of theses: 1-2
+<!-- Number of theses: 1-2 -->
 
-For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email}
+<!-- For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email} -->
