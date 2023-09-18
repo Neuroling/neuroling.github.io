@@ -2,6 +2,9 @@
 title: "Links"
 output: html_document
 ---
+[UZH Administrative Information](Admin.html)
+
+[Lab Wiki](<https://github.com/Neuroling/neuroling.github.io/wiki>)
 
 Institutions, Seminar Series and Mailing Lists
 

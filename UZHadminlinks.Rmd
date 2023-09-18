@@ -1,0 +1,41 @@
+---
+title: "UZH Admin and Employment Links"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***Some only available in German***
+
+***Many require a UZH admin***
+
+## **Admin Links**
+
+Travel Expenses (N.B. to be replaced by online Yokoy system): [DE](https://www.uzh.ch/cmsssl/fi/de/fb/kr/spesen.html); [EN](https://www.uzh.ch/cmsssl/fi/en/fb/ap/expenses.html)
+
+Cash Advances: (<https://www.uzh.ch/cmsssl/fi/de/fb/kasse.html>)
+
+Room Bookings for Events or Meetings:
+
+|   [Room Calendar](https://rooms.uzh.ch/default/Anonymous/Calendar/PortalFind)
+
+|   [Catering](https://www.del.uzh.ch/de/Raumreservationen/catering0.html)
+
+|   [Equipment Ordering after room confirmation](https://rooms.uzh.ch/Default/Custom/UzhCustom/Logon?ReservationsanfrageTyp=Geraetebestellung)
+
+## **General Info**
+
+Working Time and Absences: [DE](https://www.staff.uzh.ch/de/personal/arbeitszeit-abwesenheiten.html); [EN](https://www.staff.uzh.ch/en/personal/working-hours-absences.html)
+
+Illness and Accident: [DE](https://www.staff.uzh.ch/de/personal/arbeitszeit-abwesenheiten/abwesenheiten/krankheit-unfall.html); [EN](https://www.staff.uzh.ch/en/personal/working-hours-absences/absences/illness-accident.html)
+
+Information on Probation Period: [DE](https://www.staff.uzh.ch/de/personal/anstellung-mitarbeitende/probezeit.html); [EN](https://www.staff.uzh.ch/en/personal/employment-staff/trial-period.html)
+
+Information on Annual Appraisals: [DE](https://www.staff.uzh.ch/de/personal/anstellung-mitarbeitende/mab.html); [EN](https://www.staff.uzh.ch/en/personal/employment-staff/performance-appraisal.html)
+
+## **Legal**
+
+Confidentiality/Non-Disclosure Agreement. To be signed by students/interns or any team member who does not have such obligations in their contract [Form, DE](https://www.rud.uzh.ch/dam/jcr:37eaa2c4-552d-4560-a4ee-06570c9da67f/Allgemeine%20Geheimhaltungserkl%C3%A4rung%20V07.2023.pdf)

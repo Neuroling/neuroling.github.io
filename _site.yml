@@ -8,11 +8,13 @@ navbar:
       href: Projects.html
     - text: "People"
       href: People.html
+    - text: "Lab Alumni"
+      href: Alumni.html
     - text: "Vacancies"
       href: Vacancies.html
     - text: "Publications"
       href: Publications.html
     - text: "Links"
       href: Links.html
-
+      
 output_dir: "docs"
