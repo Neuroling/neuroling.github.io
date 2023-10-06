@@ -39,6 +39,7 @@ output:
 </style>
 ```
 ## Group Leader
+<br>
 
 ### Prof. Dr. Alexis Hervais-Adelman
 :::: {style="display: flex;"}
