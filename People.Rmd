@@ -3,7 +3,7 @@ title: "People"
 output:
   html_document:
     #code_folding: hide
-    toc: false
+    toc: true
     toc_float: true
     collapsed: true
     number_sections: false
@@ -38,12 +38,13 @@ output:
   }
 </style>
 ```
+## Group Leader
 
-### Prof. Dr. Alexis Hervais-Adelman (Group leader)
+### Prof. Dr. Alexis Hervais-Adelman
 :::: {style="display: flex;"}
 ::: floatting
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"',echo=FALSE, background-color: BalloonBlue}
-knitr::include_graphics("images/Alexis.jpg")
+knitr::include_graphics("images/alexis_cropped_2023.jpg")
 
 ```
 
