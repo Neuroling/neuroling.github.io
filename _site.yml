@@ -16,5 +16,7 @@ navbar:
       href: Publications.html
     - text: "Links"
       href: Links.html
+    - text: "Administration"
+      href: UZHadminlinks.html
       
 output_dir: "docs"
