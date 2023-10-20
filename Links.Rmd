@@ -13,7 +13,7 @@ output:
 #     highlight: haddock
 #     highlight_downlit: false
 ---
-[UZH Administrative Information](Admin.html)
+[UZH Administrative Information](UZHadminlinks.html)
 
 [Lab Wiki](<https://github.com/Neuroling/neuroling.github.io/wiki>)
 
