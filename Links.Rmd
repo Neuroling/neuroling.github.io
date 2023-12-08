@@ -16,47 +16,44 @@ output:
 
 [Onboarding document with ADMINISTRATION information](https://uzh.sharepoint.com/:w:/r/sites/AlexisHervais-Adelman/Shared%20Documents/Admin/Lab%20Documentation.docx?d=w2a8ce93092ad4c468f1be525a0d2fa8a&csf=1&web=1&e=aFgyht)
 
-[Lab Wiki](<https://github.com/Neuroling/neuroling.github.io/wiki>)
+[Lab Wiki](https://github.com/Neuroling/neuroling.github.io/wiki)
+
+\-\-\-\--
+
+Interesting reads 
+
+-   Presentation on Preregistration of fMRI studies <https://osf.io/rjzns>
+
 
 
 Institutions, Seminar Series and Mailing Lists
 
-- **UZH Psychology Department**:[Guest Colloquia](https://www.psychologie.uzh.ch/de/institut/aktuell/gaestekoll.html)
+-   **UZH Psychology Department**:[Guest Colloquia](https://www.psychologie.uzh.ch/de/institut/aktuell/gaestekoll.html)
 
-- **ZNZ**:[Neuroscience Center Zurich](https://www.neuroscience.uzh.ch/en/news.html) 
+-   **ZNZ**:[Neuroscience Center Zurich](https://www.neuroscience.uzh.ch/en/news.html)
 
-- **LiZZ**:[Zurich Center for Linguistics](https://www.linguistik.uzh.ch/en.html) [subscribe to newsletter: https://www.linguistik.uzh.ch/en/whatsup/newsletter.html]
+-   **LiZZ**:[Zurich Center for Linguistics](https://www.linguistik.uzh.ch/en.html) [subscribe to newsletter: <https://www.linguistik.uzh.ch/en/whatsup/newsletter.html>]
 
-- **NCCR**: [National Centre for Competence in Research: Evolving language](https://evolvinglanguage.ch/news/)
+-   **NCCR**: [National Centre for Competence in Research: Evolving language](https://evolvinglanguage.ch/news/)
 
-- **DCLS**: [Department of Comparative Language Science Colloquium](https://www.comparativelinguistics.uzh.ch/en/colloquium.html)
-Wednesdays, from 16:15 until 18:00, starting 28 September 2022
-Location: KO2-F-175 (City Campus), Karl Schmid Strasse 4
+-   **DCLS**: [Department of Comparative Language Science Colloquium](https://www.comparativelinguistics.uzh.ch/en/colloquium.html) Wednesdays, from 16:15 until 18:00, starting 28 September 2022 Location: KO2-F-175 (City Campus), Karl Schmid Strasse 4
 
-- **ISLE** [Centre for the Interdisciplinary Study of Language Evolution](https://www.isle.uzh.ch/en/colloquium.html)
-Tuesdays from 12:15 until 13:30, 
-Location: AFL-F-121 (Oerlikon Campus), Affolternstrasse 56; occasionally online
+-   **ISLE** [Centre for the Interdisciplinary Study of Language Evolution](https://www.isle.uzh.ch/en/colloquium.html) Tuesdays from 12:15 until 13:30, Location: AFL-F-121 (Oerlikon Campus), Affolternstrasse 56; occasionally online
 
-- **PaSS**: [Phonetics and Speech Sciences newsletter](https://lists.ifi.uzh.ch/listinfo/phonetics_news)
-Wednesdays from 12:15 until 13:45, 
-Location: AND 2.23 (Oerlikon Campus), Andreasstrasse 15, and via Zoom
+-   **PaSS**: [Phonetics and Speech Sciences newsletter](https://lists.ifi.uzh.ch/listinfo/phonetics_news) Wednesdays from 12:15 until 13:45, Location: AND 2.23 (Oerlikon Campus), Andreasstrasse 15, and via Zoom
 
- 
-Data analysis and visualizations 
+Data analysis and visualizations
 
--  [R package for Exploratory Data Analysis](https://github.com/rolkra/explore) Package with utilities to allow quick data exploration and diagnosis without having to write too much code. More info and how to use it to design a simple shiny App in this [blog post](https://www.r-bloggers.com/2022/09/explore-simplified-exploratory-data-analysis-eda-in-r/) 
+-   [R package for Exploratory Data Analysis](https://github.com/rolkra/explore) Package with utilities to allow quick data exploration and diagnosis without having to write too much code. More info and how to use it to design a simple shiny App in this [blog post](https://www.r-bloggers.com/2022/09/explore-simplified-exploratory-data-analysis-eda-in-r/)
 
-- [Plotly R](https://plotly.com/r/) and [Plotly Python](https://plotly.com/python/) 
- Free graphing library for easy-to-make interactive, publication-quality graphs. Contains many examples of varying complexity.  
+-   [Plotly R](https://plotly.com/r/) and [Plotly Python](https://plotly.com/python/) Free graphing library for easy-to-make interactive, publication-quality graphs. Contains many examples of varying complexity.
 
-- [Scikit-learn machine learning in Python](https://scikit-learn.org/stable/index.html)
-  Accessible examples and explanations on a variety of methods for predictive analysis
-  
- 
- Signal processing/EEG/MEG 
+-   [Scikit-learn machine learning in Python](https://scikit-learn.org/stable/index.html) Accessible examples and explanations on a variety of methods for predictive analysis
 
-- [Matlab: Standardized preprocessing and quality assessments of big EEG data](https://github.com/methlabUZH/automagic)\
+Signal processing/EEG/MEG
+
+-   [Matlab: Standardized preprocessing and quality assessments of big EEG data](https://github.com/methlabUZH/automagic)\
     Automagic is a MATLAB based toolbox for preprocessing of EEG-datasets. It has been developed with the intention to offer a user-friendly pre-processing software for big (and small) EEG datasets
-    
-- [Matlab: Amsterdam Decoding and Modeling toolbox](https://github.com/fahrenfort/ADAM)\
-  ADAM is an open source Matlab Toolbox. It allows you to perform multivariate analyses on your EEG and/or MEG data using backward decoding (BDM) and forward encoding models (FEM).
+
+-   [Matlab: Amsterdam Decoding and Modeling toolbox](https://github.com/fahrenfort/ADAM)\
+    ADAM is an open source Matlab Toolbox. It allows you to perform multivariate analyses on your EEG and/or MEG data using backward decoding (BDM) and forward encoding models (FEM).
