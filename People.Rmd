@@ -118,16 +118,19 @@ Fun fact: Enrico’s research career began at the University of Bristol, from wh
 [ORCID](https://orcid.org/0000-0002-0407-7190)
 :::
 ::::
+```{r}
+
+```
 <br>
 
-### Dr. Alejandra Hüsser
+### Dr. Alejandra M. Hüsser
 :::: {style="display: flex;"}
 ::: floatting
 ```{r out.width='40%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 knitr::include_graphics("images/Alejandra1.png")
 ```
 
-Alejandra Hüsser is a postdoctoral researcher in the Neurolinguistics lab. Her research interests are neurodevelopment, neuropathologies, functional brain networks and brain plasticity in children and adolescents.
+Alejandra M. Hüsser is a postdoctoral researcher in the Neurolinguistics lab. Her research interests are neurodevelopment, neuropathologies, functional brain networks and brain plasticity in children and adolescents.
 
 In 2023, Alejandra was awarded a PhD in Cognitive Neuroscience from the Université de Montréal, Canada, for her research on cerebral language networks in paediatric patients with epilepsy. She applied functional neuroimaging with electroencephalography (EEG) and near-infrared spectroscopy (fNIRS) to assess cerebral language processing. Alejandra further has experience in neuropsychological assessments of children and adults both in clinical and scientific settings.</p>
 
