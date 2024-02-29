@@ -1,0 +1,85 @@
+---
+title: "Current projects"
+output:
+html_document:
+  #code_folding: hide
+  toc: false
+  toc_float: true
+  collapsed: true
+  number_sections: false
+  toc_depth: 3
+#     
+# output: 
+#   distill::distill_article:  
+#     highlight: haddock
+#     highlight_downlit: false    
+---
+
+```{=html}
+<style>
+  .nav-pills>li>a:hover, .nav-pills>li>a:focus, .nav-pills>li.active>a,     .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+     background-color: BalloonBlue; 
+     }
+</style>
+```
+<!-- https://www.angularfix.com/2021/10/how-to-change-tabset-colors-without.html -->
+
+```{r setup, include=FALSE}
+    knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+#  {.tabset .tabset-fade .tabset-pills}
+
+## Audio-Motor Integration
+
+Last compiled: `r Sys.Date()`
+
+**Exploring audio-motor integration: a novel approach to overcoming hearing impairment**
+
+Human speech perception is robust in the face of adverse listening conditions, such as reverberation and background noise. Hearing loss imposes perceptual difficulty in speech perception by degrading incoming speech signals. It is an increasingly common disability and has large societal costs. Recent neuroimaging work has suggested that one mechanism of restoration of a degraded speech signal is couched in articulatory-motor representations. This project seeks to investigate, using multiple different methods, the neural substrates of degraded speech perception, and specifically the role of articulatory-motor representations. In addition to enhancing our understanding of the neurobiology of language, this can be applied to the development of novel training methods to enable hearing-impaired individuals to enhance and exploit articulatory-auditory links to improve their speech comprehension abilities.
+
+**Publications**
+
+Houweling, T., Becker, R., & Hervais-Adelman, A. (2020). The noise-resilient brain: Resting-state oscillatory activity predicts words-in-noise recognition. Brain Lang, 202, 104727. [doi:10.1016/j.bandl.2019.104727](https://www.sciencedirect.com/science/article/pii/S0093934X19303438)
+
+Becker, R., & Hervais-Adelman, A. (2020). Resolving the Connectome, Spectrally-Specific Functional Connectivity Networks and Their Distinct Contributions to Behavior. eNeuro, 7(5), ENEURO.0101-0120.2020. [doi:10.1523/eneuro.0101-20.2020\>](https://www.eneuro.org/content/7/5/ENEURO.0101-20.2020)
+
+## In Utero Vocal Learning
+
+Last compiled: `r Sys.Date()`
+
+Human Infants are born crying with an accent that reflects the pitch accent of the language of the environment in which they gestate.
+
+This strand of research concerns itself with this from two perspectives:
+
+1.  How does a fetus learn to implement an accent, despite having no opportunity to practice vocalisation *in utero*?
+2.  Is there a benefit to a newborn of crying with a "native" accent?
+
+In order to address these questions we are undertaking an SNF-funded investigation to examine the acoustic features of infants' cries that make them more or less aversive or salient to potential caregivers and the *in utero* cerebral processes that underpin acquisition of early precursors of human speech.
+
+
+### [For further details and information on how to participate, click here](images/Flyer_DE_V2_commit.pdf)
+![](images/Scanner_setup_wbkgd.png)
+
+## Speech comprehension
+
+Last compiled: `r Sys.Date()`
+
+Reduced speech comprehension ability is a major consequence of hearing impairments. Specially in acoustically challenging situations, difficulties in speech perception and comprehension can have major consequences for quality of life. The goal of this project is to gain knowledge into the cognitive and brain mechanisms involved in speech-in-noise comprehension. Ultimately, we search for novel insights to guide future aid technologies.
+
+There are two related projects:
+
+1.  Speech-in-noise online (SINON) investigates perception and decision-making processes. The study involves auditory presentation of speech embedded in different types and levels of noise to a healthy population performing different tasks probing speech comprehension. The outputs of the project will directly inform the paradigm design of a subsequent neurofeedback proof-of-concept investigation.
+
+<!-- -->
+
+2.  Speech-in-noise electroencephalography (SINEEG). This project will investigate patterns of electrophysiological activity associated with better speech in noise comprehension. Real-time EEG analysis will be used to trigger stimuli presentation when participants show specific brain-states. Comparing performance in those brain-dependent trials vs independent trials will help defining targets for future neurofeedback-based studies.
+
+
+## The fleeting adjective - The neural basis of modification
+
+Last compiled: `r Sys.Date()`
+
+Syntactic analyses across typologically distinct languages indicate that there is a number of parts of speech (PoS) with distinct functional roles, for instance: nouns (reference), verbs (predication) and adjectives (modification). Multiple cognitive neuroscience studies, that explored functional distinction of PoS, have distinguished between neural representations of prototypical nouns and verbs. In contrast to nouns and verbs, adjectives exhibit a rather variable syntactic behaviour across languages. Basque adjectives, for instance, often resemble nouns in their functional role, while in Mandarin Chinese modification is frequently realized by means of verbs. Due to such variable behaviour, the existence of adjectives as a distinct cross-linguistic category has been challenged. The present project aims (i) to advance our present understanding of the neural representation and organisation of adjectives employing neurolinguistic and computational approaches; and (ii) to determine whether the PoS information is predictive of the way the brain processes linguistic stimuli. An MEG study across three typologically different languages (English, Basque and Mandarin Chinese) will elucidate neurobiological correlates of the core PoS and will investigate the contribution of PoS information to the phrase structure building.
+
+#  {.unnumbered}

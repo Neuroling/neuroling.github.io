@@ -58,7 +58,7 @@ This strand of research concerns itself with this from two perspectives:
 In order to address these questions we are undertaking an SNF-funded investigation to examine the acoustic features of infants' cries that make them more or less aversive or salient to potential caregivers and the *in utero* cerebral processes that underpin acquisition of early precursors of human speech.
 
 
-### [For further details and information on how to participate, click here](images/Fetlang_iufmri_flyer.pdf)
+### [For further details and information on how to participate, click here](images/Flyer_DE_V2_commit.pdf)
 ![](images/Scanner_setup_wbkgd.png)
 
 ## Speech comprehension
