@@ -21,7 +21,6 @@ output:
   }
 </style>
 ```
-
 The Neurolinguistics Lab is committed to protecting the privacy and security of personal information. This privacy statement explains how we collect, use, and safeguard the information you provide when registering your interest in participating in our research through our web form.
 
 
@@ -29,20 +28,19 @@ The Neurolinguistics Lab is committed to protecting the privacy and security of 
 
 We only collect data through the expression of interest registration form. This form allows us to select and contact prospective participants about taking part in our studies. This information is not used for any research purposes or activities and is not tied to any research project ongoing at the lab, affiliated research groups, or third parties.
 
-
 **What Information We Collect**
 
 The web form collects basic information, including but not limited to:
 
-Name
+- Name
 
-Contact details (such as email address and phone number)
+- Contact details (such as email address and phone number)
 
-Age range
+- Age range
 
-Gender
+- Gender
 
-Information pertinent to experiment participation (e.g. languages spoken)
+- Information pertinent to experiment participation (e.g. languages spoken)
 
 **Data Storage and Security**
 
@@ -58,16 +56,15 @@ Your personal information will not be shared with third parties, except as requi
 
 You have the right to:
 
-Access the personal information we hold about you.
+- Access the personal information we hold about you.
 
-Request the correction of inaccurate information.
+- Request the correction of inaccurate information.
 
-Withdraw your consent for us to contact you at any time.
+- Withdraw your consent for us to contact you at any time.
 
-Request the deletion of your information from our records.
+- Request the deletion of your information from our records.
 
-To exercise any of these rights, please contact us using the details provided below.
-
+- To exercise any of these rights, please contact us using the details provided below.
 
 
 **Consent**
@@ -75,17 +72,16 @@ To exercise any of these rights, please contact us using the details provided be
 By submitting your information through our registration form, you consent to the collection and use of your information as described in this privacy statement.
 
 
-
 **Changes to Our Privacy Statement**
 
 We may update this privacy statement from time to time. Any changes will be posted on our website along with the updated privacy statement's effective date.
 
 
-
 **Contact Us**
 
-If you have any questions or concerns about this privacy statement or our practices concerning your personal information, please contact us at: neuroling-lab@linguistik.uzh.ch.
+If you have any questions or concerns about this privacy statement or our practices concerning your personal information, please contact us at neuroling-lab@linguistik.uzh.ch.
 
+<br>
 **Effective Date: 20/03/2024**
 
 <br>
