@@ -28,6 +28,10 @@ html_document:
     knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### Interested in joining our research projects?
+
+### Simply complete this [form](https://redcap.link/Participate_Neurolinguistics), and we will reach out with upcoming opportunities!
+
 #  {.tabset .tabset-fade .tabset-pills}
 
 ## Audio-Motor Integration
