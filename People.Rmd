@@ -145,8 +145,7 @@ Her work aims to increase the understanding of the developmental trajectory of c
 ::::
 <br>
 
-
-### Natalia Bekemeier
+### Dr. Natalia Bekemeier
 :::: {style="display: flex;"}
 ::: floatting
 ```{r out.width='40%', out.extra='style="float:left; padding:10px"', echo=FALSE}
@@ -180,6 +179,25 @@ Zirui’s current research at UZH is to work on the cross-linguistic neural basi
 [Linkedin](https://www.linkedin.com/in/zirui-huang-a4378b221)
 
 [ORCID](https://orcid.org/my-orcid?orcid=0009-0006-8632-8825)
+:::
+::::
+<br>
+
+### Dr. Christopher Ritter
+:::: {style="display: flex;"}
+::: floatting
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/ChristopherRitter.jpg")
+```
+
+Christopher Ritter is a postdoctoral researcher in the Neurolinguistics lab at the University of Zürich (UZH). In his current project he is investigating early development of neural language networks in fetuses using functional MRI and how they respond to the presentation of different auditory stimuli.
+
+After completing his doctorate on the neurobiological basis of major depressive disorder at the University of Zürich in 2022, he went on to research structural and functional networks in prematurely born children who either received erythropoietin or placebo as a postdoctoral researcher at the Children’s Hospital Zürich.
+
+Over the course of his career, he was able to accumulate experience with a broad array of MRI techniques including magnetic resonance spectroscopy (MRS), arterial spin labelling (ASL), functional MRI (fMRI), diffusion tensor imaging (DTI), and neurite orientation dispersion and density imaging (NODDI).
+
+[ORCID](https://orcid.org/0000-0001-8768-5652)
+
 :::
 ::::
 <br>
