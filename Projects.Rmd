@@ -86,4 +86,18 @@ Last compiled: `r Sys.Date()`
 
 Syntactic analyses across typologically distinct languages indicate that there is a number of parts of speech (PoS) with distinct functional roles, for instance: nouns (reference), verbs (predication) and adjectives (modification). Multiple cognitive neuroscience studies, that explored functional distinction of PoS, have distinguished between neural representations of prototypical nouns and verbs. In contrast to nouns and verbs, adjectives exhibit a rather variable syntactic behaviour across languages. Basque adjectives, for instance, often resemble nouns in their functional role, while in Mandarin Chinese modification is frequently realized by means of verbs. Due to such variable behaviour, the existence of adjectives as a distinct cross-linguistic category has been challenged. The present project aims (i) to advance our present understanding of the neural representation and organisation of adjectives employing neurolinguistic and computational approaches; and (ii) to determine whether the PoS information is predictive of the way the brain processes linguistic stimuli. An MEG study across three typologically different languages (English, Basque and Mandarin Chinese) will elucidate neurobiological correlates of the core PoS and will investigate the contribution of PoS information to the phrase structure building.
 
+## Evaluation of a silent fMRI sequence
+
+Last compiled: `r Sys.Date()`
+
+Zur Evaluierung der neuen, fast lautlosen MRT Sequenz “Looping Star” suchen wir Probanden/Probandinnen im Alter 18 – 40 Jahre, die bereit sind, für 30 – 45 Minuten an einem MR Kopfscan am Kinderspital Zürich teilzunehmen. Während der Looping Star und einer standardmässigen MR Sequenz werden die Probanden/Probandinnen sich verschiedene kurze Ausschnitte einer Geschichte anhören. Dies dient dazu, die auditorische Verarbeitung optimal zu erfassen und zwischen den beiden Scan Sequenzen vergleichen zu können und die Aufgabe für eine weitere Studie, im Zuge deren fötale Scans gemacht werden, zu validieren. Die Studie ist mit keinerlei Risiken verbunden und MR Aufnahmen gelten unter Berücksichtigung der nachfolgenden Kriterien als ungefährlich.
+
+Zur Teilnahme an der Studie müssen die Kriterien für MR-Messungen erfüllt sein: Versuchspersonen dürfen keine Metallimplantate oder grossflächige Tattoos im Brust-, Kopf, oder Nackenbereich, und keinen Zahndraht aufweisen. Weitere Informationen erhalten die potentiellen Versuchspersonen nach der Kontaktaufnahme (MR-Sicherheitsfragebogen, Zustimmungsformular etc.). Versuchspersonen müssen weiterhin frei von neurologischen oder psychiatrischen Diagnosen sein, über ein gesundes Hörvermögen verfügen und Deutsch als Muttersprache haben (multilinguale Probanden/Probandinnen werden auch eingeschlossen).
+
+Bei Interesse können sich potentielle Probanden/Probandinnen bei [Christopher Ritter](christopher.ritter@unige.ch) melden.
+ 
+Gesamte Dauer: ca. 1 Stunde
+Entlöhnung: 50 CHF oder 1.5 Versuchspersonenstunden
+ 
+
 #  {.unnumbered}
