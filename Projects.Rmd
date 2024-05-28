@@ -86,7 +86,7 @@ Last compiled: `r Sys.Date()`
 
 Syntactic analyses across typologically distinct languages indicate that there is a number of parts of speech (PoS) with distinct functional roles, for instance: nouns (reference), verbs (predication) and adjectives (modification). Multiple cognitive neuroscience studies, that explored functional distinction of PoS, have distinguished between neural representations of prototypical nouns and verbs. In contrast to nouns and verbs, adjectives exhibit a rather variable syntactic behaviour across languages. Basque adjectives, for instance, often resemble nouns in their functional role, while in Mandarin Chinese modification is frequently realized by means of verbs. Due to such variable behaviour, the existence of adjectives as a distinct cross-linguistic category has been challenged. The present project aims (i) to advance our present understanding of the neural representation and organisation of adjectives employing neurolinguistic and computational approaches; and (ii) to determine whether the PoS information is predictive of the way the brain processes linguistic stimuli. An MEG study across three typologically different languages (English, Basque and Mandarin Chinese) will elucidate neurobiological correlates of the core PoS and will investigate the contribution of PoS information to the phrase structure building.
 
-## Evaluation of a silent fMRI sequence
+## Evaluation einer lautlosen fMRT Sequenz
 
 Last compiled: `r Sys.Date()`
 
