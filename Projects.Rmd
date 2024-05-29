@@ -86,19 +86,23 @@ Last compiled: `r Sys.Date()`
 
 Syntactic analyses across typologically distinct languages indicate that there is a number of parts of speech (PoS) with distinct functional roles, for instance: nouns (reference), verbs (predication) and adjectives (modification). Multiple cognitive neuroscience studies, that explored functional distinction of PoS, have distinguished between neural representations of prototypical nouns and verbs. In contrast to nouns and verbs, adjectives exhibit a rather variable syntactic behaviour across languages. Basque adjectives, for instance, often resemble nouns in their functional role, while in Mandarin Chinese modification is frequently realized by means of verbs. Due to such variable behaviour, the existence of adjectives as a distinct cross-linguistic category has been challenged. The present project aims (i) to advance our present understanding of the neural representation and organisation of adjectives employing neurolinguistic and computational approaches; and (ii) to determine whether the PoS information is predictive of the way the brain processes linguistic stimuli. An MEG study across three typologically different languages (English, Basque and Mandarin Chinese) will elucidate neurobiological correlates of the core PoS and will investigate the contribution of PoS information to the phrase structure building.
 
-## Evaluation einer lautlosen fMRT Sequenz
+## Evaluation einer lautlosen MRT Sequenz
 
 Last compiled: `r Sys.Date()`
 
-Zur Evaluierung der neuen, fast lautlosen MRT Sequenz “Looping Star” suchen wir Probanden/Probandinnen im Alter 18 – 40 Jahre, die bereit sind, für 30 – 45 Minuten an einem MR Kopfscan am Kinderspital Zürich teilzunehmen. Während der Looping Star und einer standardmässigen MR Sequenz werden die Probanden/Probandinnen sich verschiedene kurze Ausschnitte einer Geschichte anhören. Dies dient dazu, die auditorische Verarbeitung optimal zu erfassen und zwischen den beiden Scan Sequenzen vergleichen zu können und die Aufgabe für eine weitere Studie, im Zuge deren fötale Scans gemacht werden, zu validieren. Die Studie ist mit keinerlei Risiken verbunden und MR Aufnahmen gelten unter Berücksichtigung der nachfolgenden Kriterien als ungefährlich.
+Dies ist eine Pilotstudie und dient der Evaluierung einer neuen, fast lautlosen Sequenz “Looping Star” für Magnetresonanztomographie (MRT) Aufnahmen. Weiter dient sie der Optimierung des Protokolls für eine Folgestudie zur pränatalen Sprachverarbeitung. Die Studie umfasst eine MRT-Untersuchung des Kopfes und findet am MR-Zentrum des Kinderspitals Zürich (Steinwiesstrasse 75, 8032 Zürich) statt. Während der MR-Messung werden kurze Abschnitte einer Geschichte abgespielt. Dies erlaubt es uns, die auditorische Verarbeitung optimal zu erfassen und die Aktivierungsmuster im Gehirn zwischen zwei verschiedenen MR-Protokollen zu vergleichen.
 
-Zur Teilnahme an der Studie müssen die Kriterien für MR-Messungen erfüllt sein: Versuchspersonen dürfen keine Metallimplantate oder grossflächige Tattoos im Brust-, Kopf, oder Nackenbereich, und keinen Zahndraht aufweisen. Weitere Informationen erhalten die potentiellen Versuchspersonen nach der Kontaktaufnahme (MR-Sicherheitsfragebogen, Zustimmungsformular etc.). Versuchspersonen müssen weiterhin frei von neurologischen oder psychiatrischen Diagnosen sein, über ein gesundes Hörvermögen verfügen und Deutsch als Muttersprache haben (multilinguale Probanden/Probandinnen werden auch eingeschlossen).
+Für unsere wissenschaftliche Studie suchen wir gesunde Erwachsene im Alter von 18 bis 40 Jahren, welche bereit sein, während 30 bis 40 Minuten im MRT zu liegen. Versuchspersonen sollten keine neurologischen oder psychiatrischen Diagnosen haben, über ein gesundes Hörvermögen verfügen und Deutsch als Muttersprache haben (multilinguale Probanden/Probandinnen werden auch eingeschlossen). Für die Teilnahme müssen weiter die Kriterien für MR-Messungen erfüllt sein: keine Metallimplantate oder grossflächigen Tattoos im Brust-, Kopf, oder Nackenbereich, und kein Zahndraht. Die Studie ist mit keinerlei Risiken verbunden und MR Aufnahmen gelten unter Berücksichtigung der erwähnten Kriterien als ungefährlich.
 
-Bei Interesse können sich potentielle Probanden/Probandinnen bei [Dr. Christopher Ritter](mailto:christopher%5Bdot%5Dritter%5Bat%5Dunige%5Bdot%5Dch) melden.
+Vor der Untersuchung werden die Teilnehmer*innen einen MR-Sicherheitsfragebogen und die Einverständniserklärung ausfüllen und unterschreiben.  Alle Daten werden vertraulich behandelt. Für die Versuchspersonen ergibt sich kein medizinischer Nutzen. Für die MR-Sitzung erhalten Sie CHF 50.00 oder 1.5 Versuchspersonenstunden Aufwandsentschädigung (inkl. Reisekosten). 
 
- 
-Gesamte Dauer: ca. 1 Stunde
-Entlöhnung: 50 CHF oder 1.5 Versuchspersonenstunden
- 
+Falls Sie an einer Studienteilnahme interessiert sind und oben die genannten Kriterien auf Sie zutreffen, kontaktieren Sie uns bitte für weitere Informationen unter folgendem <span style="text-decoration:underline">[Link](https://redcap.link/Participate_Neurolinguistics)</span> oder per <span style="text-decoration:underline">[E-Mail](neuroling-lab@linguistik.uzh.ch)</span>
+
+Studienkoordination: Dr. Christopher Ritter und Dr. Alejandra Hüsser 
+
+<!-- Bei Interesse können sich potentielle Probanden/Probandinnen bei [Dr. Christopher #Ritter](mailto:christopher%5Bdot%5Dritter%5Bat%5Dunige%5Bdot%5Dch) melden. -->
+
+Bitte nehmen Sie zur Kenntnis, dass Ihre Daten bei Zustandekommen eines Kontakts registriert werden. Sollten Sie nach Kontaktaufnahme an einer Studienteilnahme nicht interessiert sein, werden Ihre Daten unverzüglich gelöscht.
+
 
 #  {.unnumbered}
