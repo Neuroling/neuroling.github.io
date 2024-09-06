@@ -82,26 +82,44 @@ output:
 
   \_\_\_\_\_\_\_\_\_\_\_
 
+## Infant Cry Perception and Processing
+
+Human neonatal infants are reliant on caregivers for their fundamental survival needs; however, infants are also restricted to capturing caregiver attention or signalling their needs via crying. As such, appropriate cry perception and care giving response by the caregiver is essential for healthy infant development. Previous work has demonstrated that neonates are born producing accented cries that match the dominant pitch contour of the native language in which they gestated, this matching pitch contour may produce familiarity effects for caregivers of the same language either enhancing the perceptual salience of the cry or mitigating its aversive nature. We are interested in understanding the objective and subjective perceptual results of infant cry accent/caregiver experience, as well as how neural responses in the infant cry perception network may differ along the same experimental factors.
+
+We have availability for two students to work on this project at University of Zurich:
+
+### **Master Thesis:** Differential neural responses in the cry perception network due to neonatal cry accent and caregiver experience.
+
+This project branch focuses on the cognitive neuroscience branch of the study using functional MRI to investigate how the cry perception network may differentially respond when cries have native/non-native accents, and how this effect is modulated by the caregiving experience of the listener.
+
+We are looking for a driven student interested in cognitive neuroscience in some of the following areas: auditory perception, socioaffective communication, or functional neuroimaging. The chosen student must be comfortable working with MATLAB (or Python) and have fundamental understanding of neuroimaging principles, as well as being comfortable with supervision in English and working directly with research participants. Project duties will involve the collection and analysis of functional MRI data, providing valuable first-hand experience for students viewing a career in neuroimaging. There are also opportunities for developing experience and knowledge of auditory neuroscience, Bayesian and frequentist statistical modelling, and signal processing for neuroscience.
+
+<!-- Number of theses: 1-2 -->
+
+For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email}
+
+### **Master Thesis:** The influence of care-giver experience and neonatal cry accent on objective and subjective perception of infant crying.
+
+In this strand, the student will focus on the perceptual aspect of the project, utilising eye-tracking and subjective participant responses to investigate the perceptual impact of cry accent and caregiving experience.
+
+We are looking for a driven student interested in cognitive neuroscience in some of the following areas: psychophysics/psychoacoustics, complex behavioural modelling, auditory perception, socioaffective communication. The student must be comfortable working with R (preferably also MATLAB or Python) and be prepared to engage with complex statistical models (under supervision), as well as a comfort with supervision in English and working directly with research participants. Project duties will involve the collection and analysis of eye-tracking and behavioural data in laboratory conditions and would suite students viewing careers in cognitive neuroscience or seeking to develop skills in auditory perception, statistics, and/or signal processing. There will be opportunities to engage with the more complex side of signal processing, auditory perception, and statistics if desired.
+
+<!-- Number of theses: 1-2 -->
+
+For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email}
+
+  \_\_\_\_\_\_\_\_\_\_\_
+
+## Speech comprehension
+
 ### **Master Thesis:** Audio and video-driven features in audiovisual speech perception
 
 The visual component of speech plays an important part in real-world communication, as evidenced by the literature, and by mask-wearing during the Covid19 pandemic. This audio-visual comprehension gain plays a yet greater role for those living with hearing impairment -- a majority of the ageing population -- so understanding the mechanisms which underpin audio-visual integration is important for the development of advanced hearing aids and for the hearing impaired. Despite a concerted effort to this end over the past decades, several aspects of these processes remain unclear -- not least with respect to the role of temporal and categorical cues carried by the visual component of speech, and to the putative tuning of neural circuitry due to co-evolution of language production and perception. This project aims to disentangle these effects through a set of behavioural experiments on degraded audio-visual speech comprehension carried out online and in the lab. Findings will inform further studies with brain-imaging and contribute to the development of solutions for individuals who suffer from hearing impairment. 
 
-For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@psychologie.uzh.ch){.email}
-
-  \_\_\_\_\_\_\_\_\_\_\_
+For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@uzh.ch){.email}
 
 ### **Master Thesis:** Investigating motor contributions to speech perception using transcranial electrical stimulation
 
 Humans excel at the difficult task of parsing degraded speech. This skill, which is apparent when communicating in noisy environments, in the presence of unattended speakers, or in those wearing hearing prostheses, is underpinned by a hierarchy of complex, distributed neural processes. Perhaps surprisingly, evidence suggests neural circuitry involved in speech production and planning thereof plays an important part in speech perception as well. Despite a concerted effort to confirm and describe the contribution of processes in the motor cortex to speech perception, more work is required to elucidate the matter. This project aims to observe such motor contributions to speech perception by employing a transcranial electrical stimulation paradigm. Findings will contribute to the development of solutions for individuals who suffer from hearing impairment. 
 
-For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@psychologie.uzh.ch){.email}
-
-  \_\_\_\_\_\_\_\_\_\_\_
-
-<!-- ### **Master Thesis:** Behavioural/Physiological responses to natively accented infant-cries. -->
-
-<!-- New-born infants are born without any ability to care for themselves and thus require constant caregiver attention for their fundamental needs to be met. Neonates, however, lack the ability to communicate through speech and rely on crying to elicit caregiver attention, with effective crying being sufficiently salient to capture attention, yet not so aversive as to deter caregiver attention.New-born infants have been shown to produce spontaneous cries that are natively accented, and this project aims to investigate whether infant cry accent aids infant survival by mediating the aversiveness of a cry for the caregiver.This project offers potential to develop experience working with large data sets acquired through online studies; the collection and analysis of eye-tracking data; and working with/analysis of auditory stimuli in psychoacoustics research. -->
-
-<!-- Number of theses: 1-2 -->
-
-<!-- For more details, contact Huw Swanborough -- [huw.swanborough\@uzh.ch](mailto:huw.swanborough@uzh.ch){.email} -->
+For more details, contact Enrico Varano, [enrico.varano\@psychologie.uzh.ch](mailto:enrico.varano@uzh.ch){.email}
