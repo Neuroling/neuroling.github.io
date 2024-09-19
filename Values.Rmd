@@ -68,7 +68,7 @@ As a team, we set out core values for ourselves. These develop over time and sho
 * **Core Hours:** Team members should be available 10h00-16h00 on their work days. Flexibility is granted _by agreement_ to accommodate caring responsibilities.  
 * **Order:** Use a reference manager (UNIGE - you have access to Endnote for free; UZH - if you want Endnote, ask, otherwise JabRef, Zotero, Mendeley all exist). Maintain order in code and data at all times.   
 * **Document:** Keep records of meetings and project decisions. Note your novel ideas.   
-* **Identity:** There is a preferred lab graphical and visual style, all scientific communications (posters, talks) must at minimum bear the lab and host institution logos, and acknowledge funding sources. Acknowledge the contributions of colleagues and assistants.
+* **Identity:** There is a preferred lab graphical and visual style, all scientific communications (posters, talks) must at minimum bear the lab and host institution logos, and acknowledge funding sources. We have templates, ask for them and use them. Acknowledge the contributions of colleagues and assistants.
 
 Perfection is the enemy of the good. Aim to achieve the best you can. Next time will be even better. 
 
