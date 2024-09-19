@@ -20,55 +20,85 @@ output:
   }
 </style>
 ```
+<This document is a work in progress, and will continually develop thanks to input from team members>
+
 ### Goals
+The Dynamics of Brain and Language Lab and Neurolinguistics Group seek to illuminate the implementation of language in the brain. A key puzzle, but not the only puzzle, is the role of the broad motor system as the substrate for linguistic processing. This line of enquiry requires an interdisciplinary approach, using methods drawn from cognitive neuroscience, experimental psychology, linguistics, psychophysics and more.   
 
-Every team-member has the right to regular meetings with their PI, which we aim to have weekly. In order to manage projects, goals are set regularly, and progress against these goals assessed once a month, or more frequently if desired. Goals and project-related decision making are documented in an appropriate form agreed with the PI (current [imperfect] solutions are MS OneNote and MS Planner). 
+We are not individually masters of everything, and we seek out complementarity of knowledge and skills so that collectively we can address bigger questions.  
 
-Goals should be: **SMART**
+A core part of our work is education - the lab should be an environment where we can make mistakes, where we can ask for help and where we can learn new things without fear. 
 
-**S**pecific  
-**M**easurable  
-**A**greed  
-**R**ealistic   
-**T**ime-bound  
-
-***
-### Initiative
-Working together successfully requires effective communication and taking responsibility appropriate to your role. You must take initiative.
-
-In research, we are frequently faced with problems. It is essential to approach them proactively and to handle them to the best of your own abilities. There are levels of initiative…  
-
-0. Say nothing - _never_ acceptable. 
-1. Waiting to be asked - _never_ acceptable. 
-2. Announce that there is a problem - acceptable only from junior team members. 
-3. Suggest a solution - the absolute minimum. 
-4. Solve the problem and immediately report - *aim at least here*. 
-5. Solve the problem and report routinely - **where we should be**. 
-6. Solve the problem and say nothing - _dangerous_ the PI needs to know about problems. 
-
-***
 ### Values ###
+As a team, we set out core values for ourselves. These develop over time and should be reviewed as necessary. A team is not static, and values evolve to reflect this.  
 
-As a team, we set out core values for ourselves. These develop over time and should be reviewed as necessary. Compliance with legal and ethical obligations is non-negotiable.
+These values are those that seem crucial today. They are highlighted because they are present, not because they are absent and they serve us well in working together and achieving or proximal and longer-term scientific objectives.  
 
-**Collegiality -** skills and knowledge are shared. Respectful constructive criticism is welcome.
+We do our best to achieve our scientific goals while respecting our values. The values we share are those that enable us to create a supportive and caring environment that promotes collective success and personal fulfilment.  
 
-**Curiosity -** we are hungry for knowledge. We value learning outside our core interests, as we are conscious that this will drive inspiration and creativity.
+Each of these values serves to strengthen our commitment to scientific rigour, ethics, fairness and mutual understanding.
 
-**Empowerment -** we develop our skills in order to become maximally autonomous in making project-related decisions. We ask for help when we need it.
+**Collegiality**  
+Science progresses best through collaboration and sharing. In the lab:  
 
-**Transparency -** design, code, analysis and data are documented with the goal of ensuring compliance with FAIR principles. We take ownership of mistakes and find solutions to rectify them. 
+• We share skills and knowledge. We can solicit input and we give feedback and suggestion freely. This must be balanced with our own objectives and tasks.  
 
-### Working Guidelines ### 
-**Try to have fun, despite constraints**  
+• Respectful constructive criticism is welcome. It serves to help us improve our work and to avoid mistakes, but not to judge or target individuals.  
 
-* **ANTICIPATION:** Do not request feedback that is to be turned around within less than 7 days.  
-* **PROACTIVITY:** Report on projects regularly, even if unprompted. If I don't hear from you, I will assume there is no progress.  
-* **Notification:** Request vacation. Ensure it is approved and entered into a lab calendar. Inform of absence due to illness.  
-* **Core Hours:** Team members should be available 10h00-16h00 on their work days. Flexibility is granted _by agreement_ to accommodate caring responsibilities.  
-* **Order:** Use a reference manager (UNIGE - you have access to Endnote for free; UZH - if you want Endnote, ask, otherwise JabRef, Zotero, Mendeley all exist). Maintain order in code and data at all times.   
-* **Document:** Keep records of meetings and project decisions. Note your novel ideas.   
-* **Identity:** There is a preferred lab graphical and visual style, all scientific communications (posters, talks) must at minimum bear the lab and host institution logos, and acknowledge funding sources. We have templates, ask for them and use them. Acknowledge the contributions of colleagues and assistants.
+• Everyone, regardless of status, is encouraged to actively participate in discussion and to support their colleagues.
+
+**Curiosity**  
+Curiosity is the essential driver of research. We value:  
+
+• Open-mindendness and exploring new and unexpected domains and topics.  
+
+• Participation in scientific events, and discussions that allow us to gain new perspectives.  
+
+• Inspiration from beyond our core research domain, as inspiration is often found at the intersection of different paths. 
+
+**Respect**  
+Respect is essential to our working environment and conditions.  
+
+• Respect for the individual.  
+
+• Respect for academic contributions - we recognise and value the work of all. We understand that the primary currency of academia is authorship and that decisions concerning authorship can be causes of significant friction. Academic contributions must be attributed fairly and transparently.  
+
+• Respect for private life - we encourage a healthy work-life balance. Flexibility and accommodation of individual needs are essential to a sustainable and productive work environment.  
+
+• Respect for experimental participants - when research requires participation of volunteers, their well-being, their confidentiality and their rights are our priorities. We follow stringent ethical guidelines to guarantee their dignity. 
+
+**Self Empowerment**  
+Taking the initiative is a sign of maturity and confidence in one's abilities. We encourage:
+
+• Pro-activity - in the face of challenges, it is always preferable to inform of problems swiftly, to propose solutions, and whenever possible, to implement solutions.
+
+• Autonomy - building confidence to take operational decisions concerning your work increases your autonomy. Increased autonomy is essential to the management of projects and the ability to contribute effectively to the lab's work. 
+
+• Responsibility - taking the initiative implies responsibility for the consequences of decisions, be they positive or negative. Sharing lessons and solutions with the team contributes to continuing improvements.  
+
+• Knowing when to ask for help - if, after trying to find solutions, non present themselves, it is time to ask for help for the person you imagine to be best placed to assist you. 
+
+**Transparency**  
+In research, transparency is intimately related to honesty. It is essential to ensuring public trust and to healthy collaboration. This implies that we:  
+
+• Clearly document research (plans, code, data, analyses) in order to ensure accessibility to all, in compliance with the **FAIR** (Findable, Accessible, Interoperable, Reusable) principles.  
+
+• Recognise that comprehensive documentation serves to ease not only current collaboration but the work of future colleagues.  
+
+• Encourage rapid reporting of problems or errors that may arise, in order to find solutions together and to continue to progress and to learn.  
+
+### The Rules ### 
+Some simple rules emerge that will allow us to work according to these values. 
+In addition to these rules, there are guidelines elsewhere on how to do certain tasks.  
+**Try to have fun, despite the apparent constraints**  
+
+• **ANTICIPATE:** Everyone has a busy schedule. To allow for high-quality feedback to be provided, it is important to allow enough time (at least 7 days) before a deadline. 
+
+• **INFORM:** If you are ill or unavailable on a work day between 10h00 and 16h00, let the team know, so that appropriate accommodations can be made and no unnecessary concern arises.
+ 
+• **PLAN:** To avoid unnecessary or surprise hold-ups to project progress, plan vacations and absences, and unless they are unavoidable, ensure they are approved and recorded in advance. 
+
+• **REPORT:** Keep project-management plans updated. When tasks are completed, celebrate, share, and move on to the next. If progress is slower than anticipated, share the problems, so that they can be solved.
 
 Perfection is the enemy of the good. Aim to achieve the best you can. Next time will be even better. 
 
