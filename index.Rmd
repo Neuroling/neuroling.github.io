@@ -4,7 +4,7 @@ output: html_document
 #  distill::distill_article: default
 ---
 
-::: floatting
+::: floating
 ```{r out.width='50%', out.extra='style="float:center; padding:10px"',echo=FALSE}
 knitr::include_graphics("images/logo.png")
 ```

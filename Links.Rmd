@@ -17,13 +17,12 @@ output:
 [Onboarding document with ADMINISTRATION information](https://uzh.sharepoint.com/:w:/r/sites/AlexisHervais-Adelman/Shared%20Documents/Admin/Lab%20Documentation.docx?d=w2a8ce93092ad4c468f1be525a0d2fa8a&csf=1&web=1&e=aFgyht)
 
 [Lab Wiki](https://github.com/Neuroling/neuroling.github.io/wiki)
-
+[Lab Values and Guidelines](Values.html)
 \-\-\-\--
 
 Interesting reads 
 
 -   Presentation on Preregistration of fMRI studies <https://osf.io/rjzns>
-
 
 
 Institutions, Seminar Series and Mailing Lists
